@@ -3673,5 +3673,26 @@
     "target": "https://zoom.us/j/95496853106?pwd=a2JxTXBLVHAva1UvMSt1aklZaWFKZz09",
     "created": "2020-04-16",
     "clicks": 0
+  },
+  {
+    "id": 575,
+    "path": "wca",
+    "target": "https://www.worldcubeassociation.org/persons/2022DAYJ01",
+    "created": "2026-10-05",
+    "clicks": 0
+  },
+  {
+    "id": 576,
+    "path": "uc",
+    "target": "https://utahcubing.org",
+    "created": "2026-10-05",
+    "clicks": 0
+  },
+  {
+    "id": 577,
+    "path": "uca",
+    "target": "https://utahcubing.org",
+    "created": "2026-10-05",
+    "clicks": 0
   }
 ]
