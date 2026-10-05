@@ -20,3 +20,4 @@ Static site for jday.co: the homepage plus a URL shortener (ported from Shorty).
 - Generate the homepage from a Markdown/YAML file
 - `jday.us` (and `s.jday.us`) redirects
 - Prune dead links after reviewing `link-report.csv`
+- Font Awesome icons: use the kit/CDN at build time to fetch the SVGs and bake them into the built site (served from our own domain), without committing them to the repo. Idea only; license position unclear (an email from Font Awesome says including SVGs on the site isn't a breach, but nothing about the repo). Open questions: does the kit allow server-side fetches (domain/referrer allow-list), and does "never committed" actually matter for the license?
