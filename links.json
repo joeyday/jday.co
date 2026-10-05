@@ -501,7 +501,8 @@
     "path": "mbam",
     "target": "http://m.jday.us",
     "created": "2009-05-01",
-    "clicks": 205
+    "clicks": 205,
+    "broken": true
   },
   {
     "id": 133,
@@ -882,7 +883,8 @@
     "path": "2gb",
     "target": "http://amzn.com/B001RCTA88/?tag=joeyday-20",
     "created": "2009-07-19",
-    "clicks": 1
+    "clicks": 1,
+    "broken": true
   },
   {
     "id": 175,
@@ -1092,7 +1094,8 @@
     "path": "sn",
     "target": "http://docs.jday.us/documents/view/exchange_iphone",
     "created": "2009-09-22",
-    "clicks": 2
+    "clicks": 2,
+    "broken": true
   },
   {
     "id": 179,
@@ -2691,7 +2694,8 @@
     "path": "duracellusb",
     "target": "http://www.amazon.com/Duracell-Instant-Charger-Lithium-universal/dp/B002FU6KF2/ref=sr_1_1?ie=UTF8&qid=1310746954&sr=8-1",
     "created": "2011-07-15",
-    "clicks": 2
+    "clicks": 2,
+    "broken": true
   },
   {
     "id": 402,
@@ -2968,7 +2972,8 @@
     "path": "9e",
     "target": "http://www.amzn.com/B001GCUCF4?tag=joeyday-20",
     "created": "2012-03-13",
-    "clicks": 27
+    "clicks": 27,
+    "broken": true
   },
   {
     "id": 469,
