@@ -26,9 +26,6 @@ jobs:
         with:
           node-version: 22
       - run: npm run build
-        env:
-          # TEMPORARY: remove at cutover to the custom domain
-          BASE: /${{ github.event.repository.name }}
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
