@@ -54,13 +54,11 @@ const brokenPage = (path, target) => {
   return shell('Link may be broken', `<h1>Hmm.</h1>
 <p>The link <strong>jday.co/${esc(path)}</strong> points to a page that looks like it’s gone.</p>
 <p class="target">${esc(t)}</p>
-<p><a class="button" href="${esc(t)}" rel="nofollow">Follow it anyway</a></p>
-<p><a href="/">Go to jday.co</a></p>`);
+<p><a class="button" href="${esc(t)}" rel="nofollow">Follow it anyway</a></p>`);
 };
 
 const notFoundPage = () => shell('Not found', `<h1>Hmm.</h1>
-<p>That short link doesn’t exist.</p>
-<p><a href="/">Go to jday.co</a></p>`);
+<p>That short link doesn’t exist.</p>`);
 
 rmSync(OUT, { recursive: true, force: true });
 cpSync('public', OUT, { recursive: true });
