@@ -57,8 +57,8 @@ const brokenPage = (path, target) => {
 <p><a class="button" href="${esc(t)}" rel="nofollow">Follow it anyway</a></p>`);
 };
 
-const notFoundPage = () => shell('Not found', `<h1>Hmm.</h1>
-<p>That short link doesn’t exist.</p>`);
+const notFoundPage = () => shell('404 Not Found', `<h1>404</h1>
+<p>Page not found.</p>`);
 
 rmSync(OUT, { recursive: true, force: true });
 cpSync('public', OUT, { recursive: true });
