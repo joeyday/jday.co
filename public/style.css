@@ -1,0 +1,75 @@
+/* ------------- BASIC STYLE ------------- */
+
+* {
+    box-sizing: border-box;
+    }
+
+html {
+    font-size: 22px;
+    }
+
+h1, p, ol, ul, blockquote {
+    margin: 0 0 1rem;
+    }
+
+body {
+    font-family: "pt-sans", sans-serif;
+    font-feature-settings: "kern","liga","onum";
+    -webkit-font-feature-settings: "kern","liga","onum";
+    -moz-font-feature-settings: "kern","liga","onum";
+    line-height: 1.4em;
+    color: #999;
+    background: #222;
+    margin: 0;
+    padding: 0;
+    }
+
+h1 {
+    font-family: "cubano", sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #4384D6;
+    margin: 0.5rem 0 1.5rem;
+    }
+
+a {
+    color: #f90;
+    text-decoration: none;
+    }
+
+a:hover {
+    text-decoration: underline;
+    }
+
+
+/* ------------- COLUMNS ------------- */
+
+.page {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0;
+    }
+    
+.page section {
+    width: 14rem;
+    padding: 1rem;
+    margin: 0.2rem;
+    /* background: #333; */
+    }
+    
+
+/* ------------- MEDIA QUERIES ------------- */
+
+@media screen and (min-width: 22em) {
+
+    .page {
+        margin: 1rem auto;
+        }
+
+    }
