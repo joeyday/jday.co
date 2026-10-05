@@ -1,0 +1,36 @@
+name: Check links
+
+# Weekly, not on every build: a full check takes a couple of minutes and some sites are flaky.
+on:
+  schedule:
+    - cron: '17 9 * * 1' # Mondays, 09:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write # commit updated `broken` flags to links.json
+  actions: write  # start a deploy afterwards
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Check all links and update broken flags
+        run: node scripts/check-links.mjs --apply
+      - name: Commit changes and redeploy
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet links.json; then
+            echo "No flag changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Update broken-link flags"
+          git push
+          # Pushes made with the default token don't trigger other workflows, so start the deploy explicitly.
+          gh workflow run deploy.yml

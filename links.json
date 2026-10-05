@@ -32,7 +32,8 @@
     "path": "help",
     "target": "http://www.crossloop.com/joeyday",
     "created": "2009-03-16",
-    "clicks": 26
+    "clicks": 26,
+    "broken": true
   },
   {
     "id": 5,
@@ -74,14 +75,16 @@
     "path": "wgu",
     "target": "http://conference.wgu.edu/imtapp/app/prelogin.uix",
     "created": "2009-04-14",
-    "clicks": 5
+    "clicks": 5,
+    "broken": true
   },
   {
     "id": 14,
     "path": "tablet",
     "target": "http://h10010.www1.hp.com/wwpc/us/en/sm/WF05a/321957-304452-306995-304455-306995-457948.html",
     "created": "2009-03-16",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 15,
@@ -109,7 +112,8 @@
     "path": "palm",
     "target": "http://www.palm.com/us/products/smartphones/treo650/",
     "created": "2009-03-16",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 19,
@@ -123,7 +127,8 @@
     "path": "treo",
     "target": "http://www.palm.com/us/products/smartphones/treo650/",
     "created": "2009-03-16",
-    "clicks": 20
+    "clicks": 20,
+    "broken": true
   },
   {
     "id": 21,
@@ -158,7 +163,8 @@
     "path": "buyttf",
     "target": "http://www.ldscatalog.com/webapp/wcs/stores/servlet/ProductDisplay?catalogId=10151&storeId=10151&productId=43442&langId=-1&cg1=13710&cg2=13711&cg3=&cg4=&cg5=&sortId=3&sortOr=1&retURLtext=Back to",
     "created": "2009-03-16",
-    "clicks": 27
+    "clicks": 27,
+    "broken": true
   },
   {
     "id": 26,
@@ -172,7 +178,8 @@
     "path": "acrobat",
     "target": "http://dl.getdropbox.com/u/1977451/AcroStd8-new.zip",
     "created": "2009-09-16",
-    "clicks": 5
+    "clicks": 5,
+    "broken": true
   },
   {
     "id": 28,
@@ -207,14 +214,16 @@
     "path": "mstour",
     "target": "http://www.nationalmssociety.org/goto/joeyday",
     "created": "2009-03-16",
-    "clicks": 1
+    "clicks": 1,
+    "broken": true
   },
   {
     "id": 33,
     "path": "msbiketour",
     "target": "http://www.nationalmssociety.org/goto/joeyday",
     "created": "2009-03-16",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 34,
@@ -228,14 +237,16 @@
     "path": "video",
     "target": "http://www.stoik.com/products/svc/",
     "created": "2009-03-16",
-    "clicks": 11
+    "clicks": 11,
+    "broken": true
   },
   {
     "id": 36,
     "path": "wpthemes",
     "target": "http://blogtheinternet.com/wp-content/themes/wp-widgets-theme-pack.zip",
     "created": "2009-03-16",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 37,
@@ -249,7 +260,8 @@
     "path": "dvdrip",
     "target": "http://elliottback.com/wp/archives/2005/12/26/how-to-rip-a-dvd-a-tutorial/",
     "created": "2009-03-17",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 39,
@@ -354,14 +366,16 @@
     "path": "hijackthis",
     "target": "http://www.trendsecure.com/portal/en-US/tools/security_tools/hijackthis/download",
     "created": "2009-03-17",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 54,
     "path": "hjt",
     "target": "http://www.trendsecure.com/portal/en-US/tools/security_tools/hijackthis/download",
     "created": "2009-03-17",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 55,
@@ -375,7 +389,8 @@
     "path": "connect",
     "target": "http://wgu.acrobat.com/joey",
     "created": "2010-06-15",
-    "clicks": 124
+    "clicks": 124,
+    "broken": true
   },
   {
     "id": 57,
@@ -396,7 +411,8 @@
     "path": "059",
     "target": "http://pratham.name/post/49142039/identify-these-default-avatars",
     "created": "2009-03-17",
-    "clicks": 22
+    "clicks": 22,
+    "broken": true
   },
   {
     "id": 60,
@@ -417,7 +433,8 @@
     "path": "5bb",
     "target": "http://www.netflix.com/HowItWorks",
     "created": "2009-03-17",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 63,
@@ -431,7 +448,8 @@
     "path": "5le",
     "target": "http://www.microsoft.com/downloads/details.aspx?FamilyId=941B3470-3AE9-4AEE-8F43-C6BB74CD1466&displaylang=en",
     "created": "2009-03-17",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 65,
@@ -452,7 +470,8 @@
     "path": "sp3",
     "target": "http://www.microsoft.com/downloads/details.aspx?FamilyId=5B33B5A8-5E76-401F-BE08-1E1555D4F3D4&displaylang=en",
     "created": "2009-03-17",
-    "clicks": 2
+    "clicks": 2,
+    "broken": true
   },
   {
     "id": 68,
@@ -466,14 +485,16 @@
     "path": "5ba",
     "target": "http://blog.wired.com/wiredscience/2008/12/cousinmarriage.html",
     "created": "2009-03-17",
-    "clicks": 1
+    "clicks": 1,
+    "broken": true
   },
   {
     "id": 70,
     "path": "30q",
     "target": "https://secure.lds.org/units/home/0,9781,600-1-7-224871,00.html",
     "created": "2009-03-17",
-    "clicks": 1
+    "clicks": 1,
+    "broken": true
   },
   {
     "id": 71,
@@ -494,28 +515,32 @@
     "path": "wa",
     "target": "http://www.wolframalpha.com/screencast/introducingwolframalpha.html",
     "created": "2009-05-14",
-    "clicks": 1
+    "clicks": 1,
+    "broken": true
   },
   {
     "id": 72,
     "path": "3am",
     "target": "http://politicalticker.blogs.cnn.com/2009/01/07/porn-industry-seeks-federal-bailout/",
     "created": "2009-03-17",
-    "clicks": 23
+    "clicks": 23,
+    "broken": true
   },
   {
     "id": 73,
     "path": "6jh",
     "target": "http://www.fortysomething.ca/mt/etc/archives/005746.php",
     "created": "2009-03-17",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 74,
     "path": "webdrive",
     "target": "http://www.joeyday.net/stuff/webdrive.exe",
     "created": "2009-04-02",
-    "clicks": 65
+    "clicks": 65,
+    "broken": true
   },
   {
     "id": 75,
@@ -536,14 +561,16 @@
     "path": "brightkite",
     "target": "http://brightkite.com/people/joeyday",
     "created": "2009-03-17",
-    "clicks": 1
+    "clicks": 1,
+    "broken": true
   },
   {
     "id": 78,
     "path": "bkite",
     "target": "http://brightkite.com/people/joeyday",
     "created": "2009-03-17",
-    "clicks": 11
+    "clicks": 11,
+    "broken": true
   },
   {
     "id": 81,
@@ -578,14 +605,16 @@
     "path": "entities",
     "target": "http://leftlogic.com/lounge/articles/entity-lookup/",
     "created": "2009-03-20",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 89,
     "path": "charmap",
     "target": "http://leftlogic.com/lounge/articles/entity-lookup/",
     "created": "2009-03-20",
-    "clicks": 1
+    "clicks": 1,
+    "broken": true
   },
   {
     "id": 90,
@@ -606,7 +635,8 @@
     "path": "civic1",
     "target": "http://www.ksl.com/index.php?sid=&nid=443&tab=list/view&ad=1168329",
     "created": "2009-03-21",
-    "clicks": 5
+    "clicks": 5,
+    "broken": true
   },
   {
     "id": 101,
@@ -620,7 +650,8 @@
     "path": "civic",
     "target": "http://www.ksl.com/index.php?sid=&nid=443&tab=list/view&ad=1168329",
     "created": "2009-03-25",
-    "clicks": 7
+    "clicks": 7,
+    "broken": true
   },
   {
     "id": 102,
@@ -634,21 +665,24 @@
     "path": "dp",
     "target": "http://kb.palm.com/SRVS/CGI-BIN/WEBCGI.EXE?New,kb=PalmSupportKB,t=ooccase,case=obj(44998)#setup",
     "created": "2009-04-01",
-    "clicks": 3
+    "clicks": 3,
+    "broken": true
   },
   {
     "id": 104,
     "path": "tu",
     "target": "https://twiki.wgu.edu/twiki/bin/view/IT/CreateAdobeConnectAccounts",
     "created": "2009-04-01",
-    "clicks": 2
+    "clicks": 2,
+    "broken": true
   },
   {
     "id": 105,
     "path": "zl",
     "target": "http://www.alittleleaven.com/christian_erotica/",
     "created": "2009-04-02",
-    "clicks": 1
+    "clicks": 1,
+    "broken": true
   },
   {
     "id": 106,
@@ -669,14 +703,16 @@
     "path": "picasa",
     "target": "http://picasaweb.google.com/joeyday",
     "created": "2009-04-17",
-    "clicks": 1
+    "clicks": 1,
+    "broken": true
   },
   {
     "id": 108,
     "path": "messenger",
     "target": "http://dl.dropbox.com/u/1977451/WGU-Messenger_2_5_8.exe",
     "created": "2011-01-25",
-    "clicks": 167
+    "clicks": 167,
+    "broken": true
   },
   {
     "id": 115,
@@ -697,14 +733,16 @@
     "path": "ebay",
     "target": "http://myworld.ebay.com/joeynday",
     "created": "2009-04-29",
-    "clicks": 16
+    "clicks": 16,
+    "broken": true
   },
   {
     "id": 118,
     "path": "flixster",
     "target": "http://www.flixster.com/user/joeyday",
     "created": "2009-04-29",
-    "clicks": 63
+    "clicks": 63,
+    "broken": true
   },
   {
     "id": 119,
@@ -718,7 +756,8 @@
     "path": "quoty",
     "target": "http://www.quoty.org/user/joeyday",
     "created": "2009-04-29",
-    "clicks": 9
+    "clicks": 9,
+    "broken": true
   },
   {
     "id": 121,
@@ -739,7 +778,8 @@
     "path": "wordie",
     "target": "http://wordie.org/people/profile/joeyday",
     "created": "2009-04-29",
-    "clicks": 11
+    "clicks": 11,
+    "broken": true
   },
   {
     "id": 124,
@@ -760,14 +800,16 @@
     "path": "tpedia",
     "target": "http://www.theopedia.com/User:Joey_Day",
     "created": "2009-04-29",
-    "clicks": 12
+    "clicks": 12,
+    "broken": true
   },
   {
     "id": 127,
     "path": "theopedia",
     "target": "http://www.theopedia.com/User:Joey_Day",
     "created": "2009-04-29",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 128,
@@ -795,7 +837,8 @@
     "path": "technorati",
     "target": "http://www.technorati.com/profile/joeyday",
     "created": "2009-04-29",
-    "clicks": 8
+    "clicks": 8,
+    "broken": true
   },
   {
     "id": 135,
@@ -823,14 +866,16 @@
     "path": "8gb",
     "target": "http://amzn.com/B001UHTDS2/?tag=joeyday-20",
     "created": "2009-07-19",
-    "clicks": 5
+    "clicks": 5,
+    "broken": true
   },
   {
     "id": 139,
     "path": "4gb",
     "target": "http://amzn.com/B001RCTA8I/?tag=joeyday-20",
     "created": "2009-07-19",
-    "clicks": 1
+    "clicks": 1,
+    "broken": true
   },
   {
     "id": 140,
@@ -858,7 +903,8 @@
     "path": "ld",
     "target": "http://nickels.joeyday.com",
     "created": "2009-07-20",
-    "clicks": 2
+    "clicks": 2,
+    "broken": true
   },
   {
     "id": 145,
@@ -914,7 +960,8 @@
     "path": "rmlandesk",
     "target": "http://www.joeyday.net/stuff/UninstallWinClient.exe",
     "created": "2009-09-03",
-    "clicks": 1
+    "clicks": 1,
+    "broken": true
   },
   {
     "id": 162,
@@ -949,7 +996,8 @@
     "path": "rm",
     "target": "http://www.joeyday.net/stuff/UninstallWinClient.exe",
     "created": "2010-01-13",
-    "clicks": 8
+    "clicks": 8,
+    "broken": true
   },
   {
     "id": 165,
@@ -991,14 +1039,16 @@
     "path": "cz",
     "target": "http://nerdlets.org/2008/07/07/how-to-type-in-greek-part-ii-setting-up-the-microsoft-greek-polytonic-keyboard/",
     "created": "2009-09-14",
-    "clicks": 1
+    "clicks": 1,
+    "broken": true
   },
   {
     "id": 171,
     "path": "8y",
     "target": "http://nerdlets.org/2008/07/03/how-to-type-in-greek-part-i-an-introduction-to-unicode/",
     "created": "2009-09-14",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 172,
@@ -1026,14 +1076,16 @@
     "path": "px",
     "target": "http://dl.getdropbox.com/u/1977451/WGU Screen background.jpg",
     "created": "2009-09-17",
-    "clicks": 6
+    "clicks": 6,
+    "broken": true
   },
   {
     "id": 177,
     "path": "sav",
     "target": "http://dl.dropbox.com/u/1977451/sep32.exe",
     "created": "2010-04-01",
-    "clicks": 2
+    "clicks": 2,
+    "broken": true
   },
   {
     "id": 178,
@@ -1054,21 +1106,24 @@
     "path": "52",
     "target": "http://dl.getdropbox.com/u/1977451/Visio2003.zip",
     "created": "2009-09-23",
-    "clicks": 2
+    "clicks": 2,
+    "broken": true
   },
   {
     "id": 181,
     "path": "yu",
     "target": "http://dl.getdropbox.com/u/1977451/SAV32.zip",
     "created": "2009-09-23",
-    "clicks": 2
+    "clicks": 2,
+    "broken": true
   },
   {
     "id": 182,
     "path": "nd",
     "target": "http://dl.getdropbox.com/u/1977451/SAV32.exe",
     "created": "2009-09-24",
-    "clicks": 2
+    "clicks": 2,
+    "broken": true
   },
   {
     "id": 183,
@@ -1082,7 +1137,8 @@
     "path": "jp",
     "target": "http://dl.getdropbox.com/u/1977451/bin2hex.pdf",
     "created": "2009-09-26",
-    "clicks": 2
+    "clicks": 2,
+    "broken": true
   },
   {
     "id": 185,
@@ -1096,7 +1152,8 @@
     "path": "6d",
     "target": "http://www.microsoft.com/downloads/details.aspx?FamilyID=200b2fd9-ae1a-4a14-984d-389c36f85647&displaylang=en",
     "created": "2009-09-29",
-    "clicks": 1
+    "clicks": 1,
+    "broken": true
   },
   {
     "id": 187,
@@ -1110,35 +1167,40 @@
     "path": "jm",
     "target": "http://dl.getdropbox.com/u/1977451/taske-screencap.png",
     "created": "2009-10-02",
-    "clicks": 2
+    "clicks": 2,
+    "broken": true
   },
   {
     "id": 189,
     "path": "4f",
     "target": "http://dl.getdropbox.com/u/1977451/taske-screencap-2.png",
     "created": "2009-10-02",
-    "clicks": 2
+    "clicks": 2,
+    "broken": true
   },
   {
     "id": 190,
     "path": "hn",
     "target": "http://dl.getdropbox.com/u/1977451/WGU_screensaver.gif",
     "created": "2009-10-05",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 191,
     "path": "wave",
     "target": "http://mailhide.recaptcha.net/d?k=01ZJ8R8wEmecFD5vMfC5Zrdw==&c=usNTa0j00YAqF7D87VA8uFJkNf7OffNCBQ3AepEhhe8=",
     "created": "2009-10-06",
-    "clicks": 181
+    "clicks": 181,
+    "broken": true
   },
   {
     "id": 192,
     "path": "ow",
     "target": "http://www.nhpr.org/node/25776",
     "created": "2009-10-07",
-    "clicks": 81
+    "clicks": 81,
+    "broken": true
   },
   {
     "id": 193,
@@ -1159,7 +1221,8 @@
     "path": "uf",
     "target": "http://www.google.com/support/wave/bin/answer.py?hl=en&answer=162330",
     "created": "2009-10-08",
-    "clicks": 2
+    "clicks": 2,
+    "broken": true
   },
   {
     "id": 196,
@@ -1173,14 +1236,16 @@
     "path": "42",
     "target": "http://t.jday.us/view/The_End_for_Which_God_Created_the_World",
     "created": "2009-10-09",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 198,
     "path": "google",
     "target": "http://www.google.com/profiles/100580301468490133393",
     "created": "2009-10-10",
-    "clicks": 67
+    "clicks": 67,
+    "broken": true
   },
   {
     "id": 199,
@@ -1201,14 +1266,16 @@
     "path": "sas",
     "target": "http://dl.getdropbox.com/u/1977451/sas-addin.zip",
     "created": "2009-10-22",
-    "clicks": 1
+    "clicks": 1,
+    "broken": true
   },
   {
     "id": 202,
     "path": "mshafaat",
     "target": "http://dl.getdropbox.com/u/1977451/mshafaat_20091019.zip",
     "created": "2009-10-22",
-    "clicks": 2
+    "clicks": 2,
+    "broken": true
   },
   {
     "id": 203,
@@ -1229,7 +1296,8 @@
     "path": "sav32",
     "target": "http://dl.getdropbox.com/u/1977451/SAV32.exe",
     "created": "2009-10-27",
-    "clicks": 4
+    "clicks": 4,
+    "broken": true
   },
   {
     "id": 206,
@@ -1250,14 +1318,16 @@
     "path": "nav2010",
     "target": "http://dl.getdropbox.com/u/1977451/nav2010.exe",
     "created": "2009-10-27",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 209,
     "path": "nickels",
     "target": "http://nickels.joeyday.com",
     "created": "2009-10-28",
-    "clicks": 104
+    "clicks": 104,
+    "broken": true
   },
   {
     "id": 210,
@@ -1271,14 +1341,16 @@
     "path": "crossloop",
     "target": "http://crossloop.com/ipage.htm?id=predownload",
     "created": "2009-10-28",
-    "clicks": 87
+    "clicks": 87,
+    "broken": true
   },
   {
     "id": 212,
     "path": "silk",
     "target": "http://famfamfam.com/lab/icons/silk/preview.php",
     "created": "2009-10-28",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 213,
@@ -1299,7 +1371,8 @@
     "path": "contact",
     "target": "http://www.joeyday.com/contact",
     "created": "2009-10-28",
-    "clicks": 381
+    "clicks": 381,
+    "broken": true
   },
   {
     "id": 216,
@@ -1334,7 +1407,8 @@
     "path": "f1",
     "target": "http://blog.abenker.com/2009/08/01/google-wave-keyboard-shortcuts/",
     "created": "2009-11-06",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 221,
@@ -1369,14 +1443,16 @@
     "path": "v2",
     "target": "http://dl.dropbox.com/u/1977451/visio2003.exe",
     "created": "2009-11-11",
-    "clicks": 4
+    "clicks": 4,
+    "broken": true
   },
   {
     "id": 227,
     "path": "idc1",
     "target": "http://dl.dropbox.com/u/1977451/IDC1.flv",
     "created": "2009-11-11",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 228,
@@ -1397,14 +1473,16 @@
     "path": "w6",
     "target": "http://dl.dropbox.com/u/1977451/msxml4.dll",
     "created": "2009-11-13",
-    "clicks": 2
+    "clicks": 2,
+    "broken": true
   },
   {
     "id": 231,
     "path": "msgmgr",
     "target": "http://dl.dropbox.com/u/1977451/MsgManager.exe",
     "created": "2009-11-25",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 232,
@@ -1425,7 +1503,8 @@
     "path": "jer",
     "target": "http://wgu.acrobat.com/jer",
     "created": "2009-12-03",
-    "clicks": 784
+    "clicks": 784,
+    "broken": true
   },
   {
     "id": 235,
@@ -1446,14 +1525,16 @@
     "path": "stupid",
     "target": "https://dl.dropbox.com/u/1977451/stupid.png",
     "created": "2010-01-15",
-    "clicks": 8
+    "clicks": 8,
+    "broken": true
   },
   {
     "id": 238,
     "path": "ml",
     "target": "https://dl.dropbox.com/u/1977451/stupid.png",
     "created": "2010-01-15",
-    "clicks": 109
+    "clicks": 109,
+    "broken": true
   },
   {
     "id": 239,
@@ -1467,21 +1548,24 @@
     "path": "interrobang",
     "target": "https://dl.dropbox.com/u/1977451/index.html",
     "created": "2010-02-03",
-    "clicks": 7
+    "clicks": 7,
+    "broken": true
   },
   {
     "id": 241,
     "path": "qs",
     "target": "http://docs.blacktree.com/quicksilver/what_is_quicksilver",
     "created": "2010-02-08",
-    "clicks": 40
+    "clicks": 40,
+    "broken": true
   },
   {
     "id": 242,
     "path": "fy",
     "target": "http://dvice.com/archives/2010/02/simplicity-inca.php",
     "created": "2010-02-09",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 243,
@@ -1544,28 +1628,32 @@
     "path": "steal",
     "target": "http://www.microsoft.com/student/discounts/theultimatesteal-us/default.aspx",
     "created": "2010-03-03",
-    "clicks": 2
+    "clicks": 2,
+    "broken": true
   },
   {
     "id": 252,
     "path": "steve",
     "target": "http://wgu.acrobat.com/scolbert",
     "created": "2010-03-04",
-    "clicks": 10
+    "clicks": 10,
+    "broken": true
   },
   {
     "id": 253,
     "path": "ncm",
     "target": "http://www.ncm.com/Fathom/Opera/event/MET_Hamlet_Enc.aspx",
     "created": "2010-03-12",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 254,
     "path": "hamlet",
     "target": "http://www.ncm.com/Fathom/Opera/event/MET_Hamlet_Enc.aspx",
     "created": "2010-03-12",
-    "clicks": 1
+    "clicks": 1,
+    "broken": true
   },
   {
     "id": 255,
@@ -1586,21 +1674,24 @@
     "path": "foamee",
     "target": "http://foamee.com/people/joeyday",
     "created": "2010-03-15",
-    "clicks": 3
+    "clicks": 3,
+    "broken": true
   },
   {
     "id": 258,
     "path": "ioubeer",
     "target": "http://foamee.com/people/joeyday",
     "created": "2010-03-15",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 259,
     "path": "ioucoffee",
     "target": "http://foamee.com/people/joeyday",
     "created": "2010-03-15",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 260,
@@ -1656,7 +1747,8 @@
     "path": "ai",
     "target": "http://www.flickr.com/photos/restlessglobetrotter/3824486278/sizes/l/",
     "created": "2010-03-20",
-    "clicks": 1
+    "clicks": 1,
+    "broken": true
   },
   {
     "id": 268,
@@ -1726,21 +1818,24 @@
     "path": "wgu-bg",
     "target": "http://dl.dropbox.com/u/1977451/WGU Screen background.jpg",
     "created": "2010-03-31",
-    "clicks": 3
+    "clicks": 3,
+    "broken": true
   },
   {
     "id": 278,
     "path": "wgu-ss",
     "target": "http://dl.dropbox.com/u/1977451/WGU_screensaver.gif",
     "created": "2010-03-31",
-    "clicks": 2
+    "clicks": 2,
+    "broken": true
   },
   {
     "id": 279,
     "path": "wgu-av",
     "target": "http://dl.dropbox.com/u/1977451/WGU Avatar.jpg",
     "created": "2010-03-31",
-    "clicks": 3
+    "clicks": 3,
+    "broken": true
   },
   {
     "id": 484,
@@ -1761,14 +1856,16 @@
     "path": "ppfees",
     "target": "https://cms.paypal.com/cgi-bin/marketingweb?cmd=_render-content&content_ID=marketing_us/send_money_fees",
     "created": "2010-04-02",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 283,
     "path": "io",
     "target": "http://h10025.www1.hp.com/ewfrf/wc/softwareDownloadIndex?softwareitem=oj-11696-6&lc=en&dlc=en&cc=us&lang=en&os=228&product=90770",
     "created": "2010-04-08",
-    "clicks": 1
+    "clicks": 1,
+    "broken": true
   },
   {
     "id": 284,
@@ -1796,14 +1893,16 @@
     "path": "dt",
     "target": "http://ezinearticles.com/?The-Great-Debate-Solved---Mormonism-Vs-Christianity&id=3661831",
     "created": "2010-04-09",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 288,
     "path": "1e",
     "target": "http://www.americanchronicle.com/articles/view/142153",
     "created": "2010-04-09",
-    "clicks": 1
+    "clicks": 1,
+    "broken": true
   },
   {
     "id": 289,
@@ -1824,14 +1923,16 @@
     "path": "ti",
     "target": "http://dl.dropbox.com/u/1977451/mbam-setup-1.45.exe",
     "created": "2010-04-27",
-    "clicks": 1
+    "clicks": 1,
+    "broken": true
   },
   {
     "id": 292,
     "path": "bw",
     "target": "http://dl.dropbox.com/u/1977451/oeunth.exe",
     "created": "2010-04-27",
-    "clicks": 1
+    "clicks": 1,
+    "broken": true
   },
   {
     "id": 293,
@@ -1859,14 +1960,16 @@
     "path": "up",
     "target": "http://stats.pingdom.com/902u5csg6lpf/319402",
     "created": "2011-08-31",
-    "clicks": 63
+    "clicks": 63,
+    "broken": true
   },
   {
     "id": 297,
     "path": "uptime",
     "target": "http://stats.pingdom.com/902u5csg6lpf/319402",
     "created": "2011-08-31",
-    "clicks": 2
+    "clicks": 2,
+    "broken": true
   },
   {
     "id": 298,
@@ -1894,7 +1997,8 @@
     "path": "wgu-images",
     "target": "http://dl.dropbox.com/u/1977451/wgu-images.zip",
     "created": "2010-06-24",
-    "clicks": 34
+    "clicks": 34,
+    "broken": true
   },
   {
     "id": 304,
@@ -1929,7 +2033,8 @@
     "path": "our365zip",
     "target": "http://dl.dropbox.com/u/1977451/our365.zip",
     "created": "2010-07-10",
-    "clicks": 2
+    "clicks": 2,
+    "broken": true
   },
   {
     "id": 310,
@@ -1943,7 +2048,8 @@
     "path": "eli",
     "target": "http://dl.dropbox.com/u/1977451/eli.jpg",
     "created": "2010-07-19",
-    "clicks": 92
+    "clicks": 92,
+    "broken": true
   },
   {
     "id": 312,
@@ -1971,14 +2077,16 @@
     "path": "r",
     "target": "http://dl.dropbox.com/u/1977451/AdbeRdr933_en_US.exe",
     "created": "2010-08-26",
-    "clicks": 2
+    "clicks": 2,
+    "broken": true
   },
   {
     "id": 316,
     "path": "massage",
     "target": "http://dl.dropbox.com/u/1977451/Infant massage.pdf",
     "created": "2010-09-01",
-    "clicks": 5
+    "clicks": 5,
+    "broken": true
   },
   {
     "id": 317,
@@ -2020,56 +2128,64 @@
     "path": "computerpranks",
     "target": "http://www.computerpranks.com/downloadable-pranks/default.cfm?ItemID=13",
     "created": "2010-09-24",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 323,
     "path": "finger",
     "target": "http://www.computerpranks.com/downloadable-pranks/default.cfm?ItemID=13",
     "created": "2010-09-24",
-    "clicks": 2
+    "clicks": 2,
+    "broken": true
   },
   {
     "id": 324,
     "path": "uo",
     "target": "http://www.gnpcb.org/esv/search/?q=john 3:3, 7",
     "created": "2010-10-21",
-    "clicks": 4
+    "clicks": 4,
+    "broken": true
   },
   {
     "id": 325,
     "path": "yz",
     "target": "http://kcpw.org/blog/local-news/2010-10-26/sheriff-calls-on-opponent-to-pull-ad-apologize/",
     "created": "2010-11-03",
-    "clicks": 1
+    "clicks": 1,
+    "broken": true
   },
   {
     "id": 326,
     "path": "camtasia",
     "target": "http://dl.dropbox.com/u/1977451/camtasia.zip",
     "created": "2010-11-05",
-    "clicks": 2
+    "clicks": 2,
+    "broken": true
   },
   {
     "id": 327,
     "path": "updatefail",
     "target": "https://dl.dropbox.com/u/1977451/auto-update-fail-again.png",
     "created": "2010-11-11",
-    "clicks": 7
+    "clicks": 7,
+    "broken": true
   },
   {
     "id": 328,
     "path": "talisma",
     "target": "http://dl.dropbox.com/u/1977451/Talisma.zip",
     "created": "2010-11-12",
-    "clicks": 3
+    "clicks": 3,
+    "broken": true
   },
   {
     "id": 329,
     "path": "e-mail",
     "target": "http://www.google.com/recaptcha/mailhide/d?k=01hjS9clWbktVtTeuFMrIiAQ==&c=sKMsfZ-eFd-s-ADgHqfuy5pUbWJU4OagV9hwPqa03jg=",
     "created": "2010-11-15",
-    "clicks": 9
+    "clicks": 9,
+    "broken": true
   },
   {
     "id": 330,
@@ -2090,7 +2206,8 @@
     "path": "unisent",
     "target": "http://dl.dropbox.com/u/1977451/UniSent2007_per_computer.msi",
     "created": "2010-11-22",
-    "clicks": 3
+    "clicks": 3,
+    "broken": true
   },
   {
     "id": 333,
@@ -2104,14 +2221,16 @@
     "path": "free",
     "target": "http://amzn.to/dRg3zy",
     "created": "2010-12-07",
-    "clicks": 154
+    "clicks": 154,
+    "broken": true
   },
   {
     "id": 337,
     "path": "almost",
     "target": "http://www.whitehorseinn.org/blog/2010/10/03/almost-christian/",
     "created": "2010-12-10",
-    "clicks": 1
+    "clicks": 1,
+    "broken": true
   },
   {
     "id": 336,
@@ -2132,7 +2251,8 @@
     "path": "4d",
     "target": "http://h20000.www2.hp.com/bizsupport/TechSupport/SoftwareDescription.jsp?lang=en&cc=us&prodTypeId=321957&prodSeriesId=3688868&prodNameId=3688870&swEnvOID=1093&swLang=13&mode=2&taskId=135&swItem=ob-84862-1",
     "created": "2010-12-10",
-    "clicks": 1
+    "clicks": 1,
+    "broken": true
   },
   {
     "id": 339,
@@ -2153,7 +2273,8 @@
     "path": "cw",
     "target": "http://macosx.com/tech-support/mac/default-user-profile/3035.html",
     "created": "2010-12-17",
-    "clicks": 5
+    "clicks": 5,
+    "broken": true
   },
   {
     "id": 342,
@@ -2167,7 +2288,8 @@
     "path": "si",
     "target": "http://www.google.com/support/calendar/bin/answer.py?answer=89960",
     "created": "2010-12-28",
-    "clicks": 2
+    "clicks": 2,
+    "broken": true
   },
   {
     "id": 344,
@@ -2209,7 +2331,8 @@
     "path": "ab",
     "target": "https://banner8phx.wgu.edu/forms/frmservlet?config=prdx_mac",
     "created": "2011-01-10",
-    "clicks": 3
+    "clicks": 3,
+    "broken": true
   },
   {
     "id": 352,
@@ -2230,7 +2353,8 @@
     "path": "u",
     "target": "http://dl.dropbox.com/u/1977451/exporttoexcel07.reg",
     "created": "2011-01-13",
-    "clicks": 1
+    "clicks": 1,
+    "broken": true
   },
   {
     "id": 354,
@@ -2244,28 +2368,32 @@
     "path": "lh",
     "target": "http://www.gnpcb.org/esv/search/?q=Gen 6:1-4; Job 1:6; 2:1; 38:7; Dan 3:25",
     "created": "2011-01-19",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 356,
     "path": "e2",
     "target": "http://www.gnpcb.org/esv/search/?q=Dt 6:4; Isa 44:6; 45:21-22; Jer 10:10; Jn 17:3; 1 Cor 8:4-6; 1 Th 1:9; 1 Jn 5:20",
     "created": "2011-01-19",
-    "clicks": 4
+    "clicks": 4,
+    "broken": true
   },
   {
     "id": 357,
     "path": "ur",
     "target": "http://dl.dropbox.com/u/1977451/ComboFix.exe",
     "created": "2011-01-19",
-    "clicks": 1
+    "clicks": 1,
+    "broken": true
   },
   {
     "id": 358,
     "path": "23",
     "target": "http://dl.dropbox.com/u/1977451/mbam-setup-1.45.exe",
     "created": "2011-01-19",
-    "clicks": 1
+    "clicks": 1,
+    "broken": true
   },
   {
     "id": 359,
@@ -2300,21 +2428,24 @@
     "path": "todo",
     "target": "https://www.spootnik.net/ofocusweb/joeyday",
     "created": "2011-01-27",
-    "clicks": 1
+    "clicks": 1,
+    "broken": true
   },
   {
     "id": 364,
     "path": "yh",
     "target": "http://dl.dropbox.com/u/1977451/AcrobatPro9.zip",
     "created": "2011-01-27",
-    "clicks": 2
+    "clicks": 2,
+    "broken": true
   },
   {
     "id": 365,
     "path": "ge",
     "target": "http://dl.dropbox.com/u/1977451/arminian.html",
     "created": "2011-01-28",
-    "clicks": 1
+    "clicks": 1,
+    "broken": true
   },
   {
     "id": 366,
@@ -2335,7 +2466,8 @@
     "path": "enabler",
     "target": "http://www.angelfire.com/falcon/speedload/Enabler.htm",
     "created": "2011-02-11",
-    "clicks": 2
+    "clicks": 2,
+    "broken": true
   },
   {
     "id": 374,
@@ -2349,14 +2481,16 @@
     "path": "altiris",
     "target": "http://dl.dropbox.com/u/1977451/Altiris.zip",
     "created": "2011-02-23",
-    "clicks": 1
+    "clicks": 1,
+    "broken": true
   },
   {
     "id": 372,
     "path": "b1",
     "target": "http://dl.dropbox.com/u/1977451/Kathlenes_camera_2011-02-20.zip",
     "created": "2011-02-21",
-    "clicks": 4
+    "clicks": 4,
+    "broken": true
   },
   {
     "id": 375,
@@ -2384,7 +2518,8 @@
     "path": "aaa",
     "target": "http://dl.dropbox.com/u/1977451/snth.exe",
     "created": "2011-04-26",
-    "clicks": 80
+    "clicks": 80,
+    "broken": true
   },
   {
     "id": 379,
@@ -2405,21 +2540,24 @@
     "path": "gfwd",
     "target": "http://papers.jday.us/view/gfwd",
     "created": "2011-05-16",
-    "clicks": 12
+    "clicks": 12,
+    "broken": true
   },
   {
     "id": 382,
     "path": "bbb",
     "target": "http://dl.dropbox.com/u/1977451/rkill.exe",
     "created": "2011-05-18",
-    "clicks": 27
+    "clicks": 27,
+    "broken": true
   },
   {
     "id": 383,
     "path": "easy",
     "target": "http://www.microsoft.com/downloads/en/details.aspx?FamilyID=2b6f1631-973a-45c7-a4ec-4928fa173266",
     "created": "2011-05-25",
-    "clicks": 2
+    "clicks": 2,
+    "broken": true
   },
   {
     "id": 384,
@@ -2433,7 +2571,8 @@
     "path": "taske",
     "target": "http://dl.dropbox.com/u/1977451/taske_desktop.exe",
     "created": "2012-05-07",
-    "clicks": 23
+    "clicks": 23,
+    "broken": true
   },
   {
     "id": 386,
@@ -2468,14 +2607,16 @@
     "path": "ccc",
     "target": "http://dl.dropbox.com/u/1977451/ccc.exe",
     "created": "2011-07-05",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 391,
     "path": "1k",
     "target": "http://blogs.msdn.com/cfs-filesystemfile.ashx/__key/communityserver-components-postattachments/00-09-02-08-46/playing_2D00_logoff_2D00_sound.png",
     "created": "2011-07-06",
-    "clicks": 5
+    "clicks": 5,
+    "broken": true
   },
   {
     "id": 392,
@@ -2489,21 +2630,24 @@
     "path": "ib",
     "target": "http://dl.dropbox.com/u/1977451/Amanda Ledkins New Hire Login Information.doc",
     "created": "2011-07-12",
-    "clicks": 2
+    "clicks": 2,
+    "broken": true
   },
   {
     "id": 394,
     "path": "movimac",
     "target": "http://dl.dropbox.com/u/1977451/Movi_4-2.dmg",
     "created": "2011-07-14",
-    "clicks": 13
+    "clicks": 13,
+    "broken": true
   },
   {
     "id": 395,
     "path": "movipc",
     "target": "http://dl.dropbox.com/u/1977451/MoviSetup_4-2.exe",
     "created": "2011-07-14",
-    "clicks": 29
+    "clicks": 29,
+    "broken": true
   },
   {
     "id": 396,
@@ -2531,14 +2675,16 @@
     "path": "guide10",
     "target": "http://www.goalzero.com/shop/p/8/Guide-10-Battery-Pack-(AA-Batteries-Included)",
     "created": "2011-07-15",
-    "clicks": 2
+    "clicks": 2,
+    "broken": true
   },
   {
     "id": 400,
     "path": "scharger5",
     "target": "http://www.suntactics.com/USBSolarChargerMoreDetails.html",
     "created": "2011-07-15",
-    "clicks": 2
+    "clicks": 2,
+    "broken": true
   },
   {
     "id": 401,
@@ -2552,7 +2698,8 @@
     "path": "n",
     "target": "http://dl.dropbox.com/u/1977451/wguscreensaver.zip",
     "created": "2011-07-20",
-    "clicks": 3
+    "clicks": 3,
+    "broken": true
   },
   {
     "id": 403,
@@ -2629,7 +2776,8 @@
     "path": "6j",
     "target": "http://finance.yahoo.com/career-work/article/113308/10-most-hated-jobs-cnbc",
     "created": "2011-09-16",
-    "clicks": 13
+    "clicks": 13,
+    "broken": true
   },
   {
     "id": 414,
@@ -2706,42 +2854,48 @@
     "path": "resource",
     "target": "https://docs.google.com/a/wgu.edu/spreadsheet/viewform?formkey=dGlmSEwtTGlNM0xseUVoM2lyMzZpQWc6MQ",
     "created": "2011-11-08",
-    "clicks": 26
+    "clicks": 26,
+    "broken": true
   },
   {
     "id": 455,
     "path": "fixncr",
     "target": "http://dl.dropbox.com/u/1977451/FixNCR.reg",
     "created": "2011-12-23",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 454,
     "path": "wishlists",
     "target": "http://www.joeyday.com/wishlists",
     "created": "2011-12-15",
-    "clicks": 4
+    "clicks": 4,
+    "broken": true
   },
   {
     "id": 459,
     "path": "prsn",
     "target": "http://247pearsoned.custhelp.com/app/answers/detail/a_id/7375",
     "created": "2012-01-05",
-    "clicks": 24
+    "clicks": 24,
+    "broken": true
   },
   {
     "id": 458,
     "path": "pearson",
     "target": "http://247pearsoned.custhelp.com/app/answers/detail/a_id/7375",
     "created": "2012-01-05",
-    "clicks": 2
+    "clicks": 2,
+    "broken": true
   },
   {
     "id": 457,
     "path": "b0",
     "target": "http://247pearsoned.custhelp.com/app/answers/detail/a_id/7375",
     "created": "2012-01-05",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 456,
@@ -2755,14 +2909,16 @@
     "path": "asset",
     "target": "https://docs.google.com/a/wgu.edu/spreadsheet/viewform?hl=en_US&formkey=dGFWMFVUWjhzdEZMbXdaYVJxcF81ZUE6MQ#gid=0",
     "created": "2012-01-05",
-    "clicks": 79
+    "clicks": 79,
+    "broken": true
   },
   {
     "id": 461,
     "path": "serial",
     "target": "https://docs.google.com/a/wgu.edu/spreadsheet/viewform?hl=en_US&formkey=dERiUDRtQlZ5MS1YSTZaY1JvVmxtcUE6MQ#gid=0",
     "created": "2012-01-09",
-    "clicks": 54
+    "clicks": 54,
+    "broken": true
   },
   {
     "id": 462,
@@ -2804,7 +2960,8 @@
     "path": "c6",
     "target": "http://amzn.com/B000U0O9FM?tag=joeyday-20",
     "created": "2012-03-08",
-    "clicks": 19
+    "clicks": 19,
+    "broken": true
   },
   {
     "id": 468,
@@ -2818,14 +2975,16 @@
     "path": "31",
     "target": "http://www.joeyday.com/stuff/lut1-visual-aid.pdf",
     "created": "2012-03-14",
-    "clicks": 235
+    "clicks": 235,
+    "broken": true
   },
   {
     "id": 470,
     "path": "4k",
     "target": "http://www.joeyday.com/stuff/lut1-script-sources.pdf",
     "created": "2012-03-14",
-    "clicks": 318
+    "clicks": 318,
+    "broken": true
   },
   {
     "id": 471,
@@ -2853,14 +3012,16 @@
     "path": "fsl",
     "target": "http://dl.dropbox.com/u/1977451/ForStudentLoaners.exe",
     "created": "2012-04-09",
-    "clicks": 71
+    "clicks": 71,
+    "broken": true
   },
   {
     "id": 475,
     "path": "w",
     "target": "http://dl.dropbox.com/u/1977451/wgu-images.zip",
     "created": "2012-04-09",
-    "clicks": 81
+    "clicks": 81,
+    "broken": true
   },
   {
     "id": 476,
@@ -2881,7 +3042,8 @@
     "path": "fnm",
     "target": "http://dl.dropbox.com/u/1977451/ForNewMachines.exe",
     "created": "2012-04-17",
-    "clicks": 2
+    "clicks": 2,
+    "broken": true
   },
   {
     "id": 479,
@@ -2895,7 +3057,8 @@
     "path": "ah",
     "target": "http://www.ccef.org/blog/do-people-who-commit-suicide-go-heaven",
     "created": "2012-05-12",
-    "clicks": 27
+    "clicks": 27,
+    "broken": true
   },
   {
     "id": 481,
@@ -2916,7 +3079,8 @@
     "path": "16",
     "target": "https://dl.dropbox.com/u/1977451/LJP1100_P1560_P1600_Full_Solution.exe",
     "created": "2012-06-25",
-    "clicks": 12
+    "clicks": 12,
+    "broken": true
   },
   {
     "id": 486,
@@ -2930,14 +3094,16 @@
     "path": "fk",
     "target": "http://lifehacker.com/5805897/how-to-cook-pasta-correctly",
     "created": "2012-07-04",
-    "clicks": 18
+    "clicks": 18,
+    "broken": true
   },
   {
     "id": 488,
     "path": "a3",
     "target": "http://goodthink.com/writing/view_stories.cfm?id=11&page_id=2",
     "created": "2012-07-05",
-    "clicks": 17
+    "clicks": 17,
+    "broken": true
   },
   {
     "id": 489,
@@ -2951,7 +3117,8 @@
     "path": "signin",
     "target": "https://docs.google.com/a/wgu.edu/spreadsheet/viewform?formkey=dC01ZmQzYzgxOXlQbEo0WEtfSzdZTVE6MQ",
     "created": "2012-07-10",
-    "clicks": 72
+    "clicks": 72,
+    "broken": true
   },
   {
     "id": 491,
@@ -2993,7 +3160,8 @@
     "path": "java",
     "target": "http://support.apple.com/kb/HT5559",
     "created": "2012-12-03",
-    "clicks": 2
+    "clicks": 2,
+    "broken": true
   },
   {
     "id": 497,
@@ -3049,7 +3217,8 @@
     "path": "tn",
     "target": "http://www.fishnetsecurity.com/sites/default/files/media/10WP0003_BestPractices_SecureForgotPassword[1]_0.pdf",
     "created": "2013-02-21",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 505,
@@ -3105,7 +3274,8 @@
     "path": "abby",
     "target": "https://dl.dropbox.com/u/1977451/abby.jpg",
     "created": "2013-04-01",
-    "clicks": 8
+    "clicks": 8,
+    "broken": true
   },
   {
     "id": 513,
@@ -3119,7 +3289,8 @@
     "path": "cb",
     "target": "http://www.google.com/landing/nose/",
     "created": "2013-04-01",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 515,
@@ -3133,7 +3304,8 @@
     "path": "kq",
     "target": "https://vimeo.com/blog/post:564",
     "created": "2013-04-01",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 522,
@@ -3182,14 +3354,16 @@
     "path": "pf",
     "target": "http://www.glove.ly/products/glove-ly-cozy-lined",
     "created": "2013-12-26",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 526,
     "path": "3b",
     "target": "https://dl.dropboxusercontent.com/u/1977451/sherlock.3x01.the_empty_hearse.hdtv_x264-fov.mp4",
     "created": "2014-01-02",
-    "clicks": 3
+    "clicks": 3,
+    "broken": true
   },
   {
     "id": 527,
@@ -3203,7 +3377,8 @@
     "path": "trinity",
     "target": "http://totascriptura.org/view/Trinity",
     "created": "2014-03-11",
-    "clicks": 4
+    "clicks": 4,
+    "broken": true
   },
   {
     "id": 533,
@@ -3224,28 +3399,32 @@
     "path": "atonement",
     "target": "http://totascriptura.org/view/Definite_atonement",
     "created": "2014-04-09",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 535,
     "path": "9k",
     "target": "http://joeyday.com/images/gears.jpg",
     "created": "2014-07-24",
-    "clicks": 2
+    "clicks": 2,
+    "broken": true
   },
   {
     "id": 537,
     "path": "dvorak",
     "target": "http://joeyday.com/stuff/dvorak.pdf",
     "created": "2014-08-26",
-    "clicks": 4
+    "clicks": 4,
+    "broken": true
   },
   {
     "id": 538,
     "path": "n0",
     "target": "http://www.theonion.com/articles/salt-lake-city-hoping-to-boost-tourism-by-remindin,36743/",
     "created": "2014-09-11",
-    "clicks": 1
+    "clicks": 1,
+    "broken": true
   },
   {
     "id": 539,
@@ -3266,7 +3445,8 @@
     "path": "t0",
     "target": "http://www.theramenrater.com/2011/01/20/272-vina-acecook-mi-lÃ¡ÂºÂ©u-thai-instant-noodles-artificial-chicken-flavor",
     "created": "2015-03-18",
-    "clicks": 61
+    "clicks": 61,
+    "broken": true
   },
   {
     "id": 543,
@@ -3329,14 +3509,16 @@
     "path": "q",
     "target": "http://www.theramenrater.com/2010/09/08/ve-wong-instant-oriental-noodle-soup-mi-bo-hÃÂ°ÃÂ¡ng-cay-khau-vÃ¡Â»â¹-artificial-peppered-beef-flavor/",
     "created": "2015-07-22",
-    "clicks": 96
+    "clicks": 96,
+    "broken": true
   },
   {
     "id": 552,
     "path": "4h",
     "target": "http://joeyday.com/2015/09/03/get-duration-value-in-millseconds/",
     "created": "2015-09-03",
-    "clicks": 22
+    "clicks": 22,
+    "broken": true
   },
   {
     "id": 553,

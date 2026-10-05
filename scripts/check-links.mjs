@@ -1,8 +1,25 @@
-// Checks every target in links.json and writes link-report.csv (sortable, with a blank "keep?" column).
-// Usage: node scripts/check-links.mjs
-import { readFileSync, writeFileSync } from 'node:fs';
+// Checks link targets and writes link-report.csv (sortable, with a blank "keep?" column).
+// Usage: node scripts/check-links.mjs [--changed=<git-ref>] [--apply]
+//   --changed=<ref>  only check links that are new or edited compared with links.json at <ref>
+//   --apply          set `broken: true` in links.json for definitively dead links (404/410, domain
+//                    gone, soft-404) and clear it for links that are OK again. Uncertain results
+//                    (bot-blocking, timeouts) never change the flag.
+import { readFileSync, writeFileSync, appendFileSync } from 'node:fs';
+import { execFileSync } from 'node:child_process';
 
-const links = JSON.parse(readFileSync('links.json', 'utf8'));
+const args = process.argv.slice(2);
+const apply = args.includes('--apply');
+const ref = args.find((a) => a.startsWith('--changed='))?.slice('--changed='.length);
+
+const all = JSON.parse(readFileSync('links.json', 'utf8'));
+let links = all;
+if (ref) {
+  let before = [];
+  try { before = JSON.parse(execFileSync('git', ['show', `${ref}:links.json`], { encoding: 'utf8' })); } catch {}
+  const old = new Map(before.map((l) => [l.path, l.target]));
+  links = all.filter((l) => old.get(l.path) !== l.target);
+  console.error(`${links.length} new or changed link(s) since ${ref}`);
+}
 const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36';
 const enc = (u) => encodeURI(decodeURI(u));
 
@@ -70,6 +87,30 @@ const rank = (v) => (v.startsWith('ok') ? 3 : v.startsWith('uncertain') ? 2 : 1)
   .forEach((r) => rows.push([r.verdict, r.path, r.clicks, r.created, r.status, r.target, r.final, '']));
 writeFileSync('link-report.csv', rows.map((r) => r.map(q).join(',')).join('\n') + '\n');
 writeFileSync('link-report.json', JSON.stringify(results, null, 2));
+
+const isDead = (v) => v.startsWith('dead') || v.startsWith('soft-404');
+const isOk = (v) => v.startsWith('ok');
+const flagged = [], cleared = [];
+if (apply) {
+  const byPath = new Map(results.map((r) => [r.path, r]));
+  for (const l of all) {
+    const r = byPath.get(l.path);
+    if (!r) continue;
+    if (isDead(r.verdict) && !l.broken) { l.broken = true; flagged.push(r); }
+    else if (isOk(r.verdict) && l.broken) { delete l.broken; cleared.push(r); }
+  }
+  writeFileSync('links.json', JSON.stringify(all, null, 2) + '\n');
+}
+
+// Markdown summary for the GitHub Actions run page (no-op locally).
+if (process.env.GITHUB_STEP_SUMMARY) {
+  const bad = results.filter((r) => isDead(r.verdict));
+  const lines = [`### Link check: ${results.length} checked, ${bad.length} dead`];
+  if (flagged.length) lines.push('', `**Newly flagged broken:** ${flagged.map((r) => `\`${r.path}\``).join(', ')}`);
+  if (cleared.length) lines.push('', `**Working again:** ${cleared.map((r) => `\`${r.path}\``).join(', ')}`);
+  if (bad.length) lines.push('', '| Link | Verdict | Target |', '|---|---|---|', ...bad.map((r) => `| ${r.path} | ${r.verdict} | ${r.target} |`));
+  appendFileSync(process.env.GITHUB_STEP_SUMMARY, lines.join('\n') + '\n');
+}
 
 const tally = {};
 for (const r of results) tally[r.verdict] = (tally[r.verdict] ?? 0) + 1;
