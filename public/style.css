@@ -1,10 +1,12 @@
 :root {
     color-scheme: dark;
 
+    /* Text, heading and link share one lightness, so they carry equal visual weight on the dark background. */
+    --lightness: 72%;
     --bg: oklch(25.2% 0 0);
-    --text: oklch(68.3% 0 0);
-    --heading: oklch(61% 0.142 255);
-    --link: oklch(77.2% 0.174 65);
+    --text: oklch(var(--lightness) 0 0);
+    --heading: oklch(var(--lightness) 0.142 255);
+    --link: oklch(var(--lightness) 0.16 65);
 
     --column-width: 14rem;
     --space: 1rem;
