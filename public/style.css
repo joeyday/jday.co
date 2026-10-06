@@ -1,94 +1,91 @@
-/* ------------- BASIC STYLE ------------- */
+:root {
+    color-scheme: dark;
 
-* {
+    --bg: oklch(25.2% 0 0);
+    --text: oklch(68.3% 0 0);
+    --heading: oklch(61% 0.142 255);
+    --link: oklch(77.2% 0.174 65);
+
+    --column-width: 14rem;
+    --space: 1rem;
+    }
+
+*,
+*::before,
+*::after {
     box-sizing: border-box;
     }
 
 html {
-    font-size: 22px;
-    }
-
-h1, p, ol, ul, blockquote {
-    margin: 0 0 1rem;
+    font-size: 137.5%; /* 22px at the default browser size, but respects user settings */
     }
 
 body {
-    font-family: "pt-sans", sans-serif;
-    font-feature-settings: "kern","liga","onum";
-    -webkit-font-feature-settings: "kern","liga","onum";
-    -moz-font-feature-settings: "kern","liga","onum";
-    line-height: 1.4em;
-    color: #999;
-    background: #222;
     margin: 0;
-    padding: 0;
+    font-family: "pt-sans", sans-serif;
+    font-kerning: normal;
+    font-variant-ligatures: common-ligatures;
+    font-variant-numeric: oldstyle-nums;
+    line-height: 1.4;
+    color: var(--text);
+    background: var(--bg);
+    }
+
+h1, p, ol, ul, blockquote {
+    margin-block: 0 var(--space);
     }
 
 h1 {
     font-family: "cubano", sans-serif;
     font-size: 3rem;
     font-weight: bold;
-    color: #4384D6;
-    margin: 0.5rem 0 1.5rem;
+    line-height: 1.4rem; /* matches the original look: a fixed line box that the large type overflows */
+    color: var(--heading);
+    margin-block: 0.5rem 1.5rem;
+    text-wrap: balance;
+    }
+
+p {
+    text-wrap: pretty;
     }
 
 a {
-    color: #f90;
+    color: var(--link);
     text-decoration: none;
-    }
 
-a:hover {
-    text-decoration: underline;
+    &:hover {
+        text-decoration: underline;
+        }
     }
-
 
 .target {
     font-size: 0.7rem;
-    word-break: break-all;
+    overflow-wrap: anywhere;
     }
 
 a.button {
     display: inline-block;
     padding: 0.2rem 0.8rem;
-    border: 1px solid #f90;
+    border: 1px solid var(--link);
     border-radius: 0.3rem;
-    }
 
-a.button:hover {
-    background: #f90;
-    color: #222;
-    text-decoration: none;
-    }
-
-
-/* ------------- COLUMNS ------------- */
-
-.page {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: row;
-    flex-direction: row;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin: 0;
-    }
-    
-.page section {
-    width: 14rem;
-    padding: 1rem;
-    margin: 0.2rem;
-    /* background: #333; */
-    }
-    
-
-/* ------------- MEDIA QUERIES ------------- */
-
-@media screen and (min-width: 22em) {
-
-    .page {
-        margin: 1rem auto;
+    &:hover {
+        background: var(--link);
+        color: var(--bg);
+        text-decoration: none;
         }
+    }
 
+/* Columns: as many fixed-width columns as fit, centered, shrinking on narrow screens. */
+.page {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(var(--column-width), 100%), var(--column-width)));
+    justify-content: center;
+    gap: 0.4rem;
+    padding-block: 0.2rem;
+    margin-block: var(--space);
+    }
+
+.column {
+    padding: var(--space);
     }
