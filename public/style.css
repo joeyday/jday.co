@@ -66,7 +66,8 @@ a {
     overflow-wrap: anywhere;
     }
 
-a.button {
+a.button,
+button.button {
     display: inline-block;
     padding: 0.2rem 0.8rem;
     border: 1px solid var(--link);
@@ -96,4 +97,31 @@ a.button {
 
 .column {
     padding: var(--space);
+    }
+
+/* Admin form */
+label {
+    display: block;
+    }
+
+input {
+    width: 100%;
+    padding: 0.2rem 0.4rem;
+    font: inherit;
+    color: var(--text);
+    background: transparent;
+    border: 1px solid var(--text);
+    border-radius: 0.3rem;
+    }
+
+button.button {
+    font: inherit;
+    color: var(--link);
+    background: transparent;
+    cursor: pointer;
+
+    &:hover {
+        background: var(--link);
+        color: var(--bg);
+        }
     }

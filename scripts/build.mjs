@@ -2,7 +2,7 @@
 // Links flagged `broken`, or whose target was auto-updated by the link checker (they have `history` and
 // aren't `approved`), get an interstitial with a "take me there anyway" option instead of an instant redirect.
 // Every link also gets <path>/info/, a non-redirecting page with its details, so `info` is a reserved word.
-import { cpSync, mkdirSync, rmSync, writeFileSync, readFileSync } from 'node:fs';
+import { cpSync, mkdirSync, rmSync, writeFileSync, readFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 
 const OUT = 'dist';
@@ -98,6 +98,7 @@ for (const link of links) {
   if (/(^|\/)(\.\.?)?(\/|$)/.test(key)) throw new Error(`Bad path: ${path}`);
   if (key.split('/').includes('info')) throw new Error(`"info" is reserved (it's the details page): ${path}`);
   const dir = join(OUT, key);
+  if (existsSync(join(dir, 'index.html'))) throw new Error(`Path collides with a page in public/: ${path}`);
   mkdirSync(dir, { recursive: true });
   const isMoved = !isBroken && history?.length && !approved;
   if (isBroken) broken++;

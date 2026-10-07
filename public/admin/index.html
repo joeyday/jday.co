@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Admin</title>
+<meta name="viewport" content="width=device-width">
+<meta name="robots" content="noindex">
+<!-- No external scripts or fonts on this page: it handles a GitHub token, so only our own inline script may run. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; script-src 'unsafe-inline'; connect-src https://api.github.com; base-uri 'none'; form-action 'none'">
+<link href="/style.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body>
+<section class="page wide">
+<section class="column">
+<h1>Add a link</h1>
+<form id="form" autocomplete="off">
+<p><label>GitHub token<br><input id="token" type="password" autocomplete="off" required></label></p>
+<p><label>Short path (leave blank to auto-assign)<br><input id="path" type="text" autocapitalize="off" spellcheck="false" placeholder="e.g. wishlist/joey"></label></p>
+<p><button class="button" type="button" id="suggest">Suggest a short path</button></p>
+<p><label>Target URL<br><input id="target" type="url" placeholder="https://…" required></label></p>
+<p><button class="button" type="submit">Add link</button></p>
+</form>
+<p id="status" role="status"></p>
+<p class="target">The token is only held in this page’s memory. It’s never stored, and it’s gone when you close or reload the page. Use a fine-grained token limited to this repository with Contents read &amp; write.</p>
+</section>
+</section>
+<script>
+const REPO = 'joeyday/jday.co';
+const API = `https://api.github.com/repos/${REPO}/contents/links.json`;
+
+// Returns the new link entry, or throws a message-bearing Error. Mirrors the checks in scripts/build.mjs.
+function newLink(links, rawPath, rawTarget, today) {
+  const path = rawPath.trim().replace(/^\/+|\/+$/g, '');
+  if (!path) throw new Error('Enter a path.');
+  const segments = path.split('/');
+  if (segments.some((s) => !s || s === '.' || s === '..')) throw new Error('That path has an empty or dot segment.');
+  if (/[?#\s]/.test(path)) throw new Error('Paths can’t contain spaces, ? or #.');
+  if (segments.some((s) => s.toLowerCase() === 'info')) throw new Error('“info” is reserved.');
+  if (segments[0].toLowerCase() === 'admin') throw new Error('“admin” is reserved.');
+  const target = rawTarget.trim();
+  let url;
+  try { url = new URL(target); } catch { throw new Error('That target isn’t a valid URL.'); }
+  if (!/^https?:$/.test(url.protocol)) throw new Error('The target must be http or https.');
+  if (links.some((l) => l.path.toLowerCase() === path.toLowerCase())) throw new Error(`jday.co/${path} already exists.`);
+  return { id: Math.max(0, ...links.map((l) => l.id)) + 1, path, target, created: today, clicks: 0 };
+}
+
+// Chunked: spreading the whole file into one call can exceed the engine's argument limit.
+// Lowercase only: the site treats paths case-insensitively (the build lowercases them), and GitHub Pages
+// is case-sensitive, so mixed-case codes wouldn't resolve. 36 characters, not 62.
+const ALPHABET = 'abcdefghijklmnopqrstuvwxyz0123456789';
+const MIN_LENGTH = 2;
+const RESERVED = ['info', 'admin'];
+
+// Picks a uniformly random unused code of the shortest length that has any free. Instead of building
+// the list of free codes, it treats each code as a base-36 number, draws a random rank r among the
+// free ones, and shifts r past each used number at or below it (used sorted ascending).
+function pickCode(links) {
+  const base = ALPHABET.length;
+  const toNumber = (code) => {
+    let n = 0;
+    for (const ch of code) {
+      const digit = ALPHABET.indexOf(ch);
+      if (digit < 0) return -1;
+      n = n * base + digit;
+    }
+    return n;
+  };
+  const taken = links.map((l) => l.path.toLowerCase()).concat(RESERVED);
+  for (let length = MIN_LENGTH; ; length++) {
+    const used = [...new Set(taken.filter((p) => p.length === length).map(toNumber).filter((n) => n >= 0))].sort((a, b) => a - b);
+    const free = base ** length - used.length;
+    if (free <= 0) continue;
+    let rank = Math.floor(Math.random() * free);
+    for (const n of used) {
+      if (n <= rank) rank++;
+      else break;
+    }
+    let code = '';
+    for (let i = 0; i < length; i++, rank = Math.floor(rank / base)) code = ALPHABET[rank % base] + code;
+    return code;
+  }
+}
+
+const bytesToBase64 = (s) => {
+  const bytes = new TextEncoder().encode(s);
+  let bin = '';
+  for (let i = 0; i < bytes.length; i += 8192) bin += String.fromCharCode(...bytes.subarray(i, i + 8192));
+  return btoa(bin);
+};
+const base64ToText = (b) => new TextDecoder().decode(Uint8Array.from(atob(b.replace(/\s/g, '')), (c) => c.charCodeAt(0)));
+
+async function github(token, options = {}) {
+  const res = await fetch(API, { ...options, headers: { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github+json', ...options.headers } });
+  if (!res.ok) {
+    const detail = res.status === 401 ? 'GitHub rejected the token.' : res.status === 403 || res.status === 404 ? 'The token can’t write to this repository (check its scope).' : res.status === 409 ? 'links.json changed while saving; try again.' : `GitHub said ${res.status}.`;
+    throw new Error(detail);
+  }
+  return res.json();
+}
+
+async function loadLinks(token) {
+  const file = await github(token);
+  return { file, links: JSON.parse(base64ToText(file.content)) };
+}
+
+const $ = (id) => document.getElementById(id);
+const say = (msg) => { $('status').textContent = msg; };
+
+$('suggest').addEventListener('click', async () => {
+  const token = $('token').value.trim();
+  if (!token) return say('Enter the token first; it’s needed to see which paths are taken.');
+  try {
+    say('Looking…');
+    $('path').value = pickCode((await loadLinks(token)).links);
+    say('Suggested a path. Edit it if you like, or press the button again for another.');
+  } catch (err) {
+    say(err.message);
+  }
+});
+
+$('form').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const token = $('token').value.trim();
+  const button = e.target.querySelector('button');
+  button.disabled = true;
+  try {
+    say('Checking…');
+    const { file, links } = await loadLinks(token);
+    const now = new Date();
+    const today = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
+    const link = newLink(links, $('path').value.trim() || pickCode(links), $('target').value, today);
+    links.push(link);
+    say('Saving…');
+    await github(token, {
+      method: 'PUT',
+      body: JSON.stringify({ message: `Add link ${link.path}`, content: bytesToBase64(JSON.stringify(links, null, 2) + '\n'), sha: file.sha }),
+    });
+    say(`Added jday.co/${link.path}. It will be live in a minute or two, once the site redeploys.`);
+    $('path').value = '';
+    $('target').value = '';
+  } catch (err) {
+    say(err.message);
+  } finally {
+    button.disabled = false;
+  }
+});
+</script>
+</body>
+</html>
