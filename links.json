@@ -4308,10 +4308,16 @@
   {
     "id": 528,
     "path": "trinity",
-    "target": "http://totascriptura.org/view/Trinity",
+    "target": "https://totascriptura.org/topic/trinity",
     "created": "2014-03-11",
     "clicks": 4,
-    "broken": true
+    "history": [
+      {
+        "target": "http://totascriptura.org/view/Trinity",
+        "replaced": "2026-10-06"
+      }
+    ],
+    "approved": true
   },
   {
     "id": 533,
