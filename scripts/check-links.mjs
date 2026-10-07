@@ -6,7 +6,8 @@
 //                    (bot-blocking, timeouts) never change the flag. Also, when a target permanently
 //                    redirects (every hop 301/308) to a working page, update `target` to the new URL and
 //                    record the old one in the link's `history` (newest first). The build then shows a
-//                    "this link was redirected" page until the link is marked `approved: true`.
+//                    "this link was redirected" page until the link is marked `approved: true`, which
+//                    happens automatically when only the scheme, www. or a trailing slash changed.
 import { readFileSync, writeFileSync, appendFileSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 
@@ -65,6 +66,10 @@ function classify(link, r) {
   return `other (${s})`;
 }
 
+// Same page, cosmetically different: scheme, a leading www., host case, or a trailing slash.
+const canon = (u) => { const x = new URL(enc(u)); return `${x.hostname.replace(/^www\./, '').toLowerCase()}${x.pathname.replace(/\/$/, '')}${x.search}${x.hash}`; };
+const isTrivialMove = (l) => l.history?.length && l.history.every((h) => canon(h.target) === canon(l.target));
+
 const results = new Array(links.length);
 let next = 0, done = 0;
 async function worker() {
@@ -111,6 +116,7 @@ if (apply) {
         delete l.approved; // a new move needs a fresh review
       }
     }
+    if (isTrivialMove(l)) l.approved = true; // nothing to review, so redirect straight through
     if (isDead(r.verdict) && !l.broken) { l.broken = true; flagged.push(r); }
     else if (isOk(r.verdict) && l.broken) { delete l.broken; cleared.push(r); }
   }

@@ -10,7 +10,8 @@
         "target": "http://www.amazon.com/registry/wishlist/29N4WR3L01AXB?sort=priority",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 7,
@@ -58,7 +59,8 @@
         "target": "http://www.speedtest.net",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 9,
@@ -71,7 +73,8 @@
         "target": "http://www.amazon.com/registry/wishlist/3TP0N2GTB9U1Q?sort=priority",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 10,
@@ -84,7 +87,8 @@
         "target": "http://www.amazon.com/registry/wishlist/3TP0N2GTB9U1Q?sort=priority",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 11,
@@ -104,7 +108,8 @@
         "target": "http://www.amazon.com/registry/wishlist/3U422ZDB1H7BP?sort=priority",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 13,
@@ -191,7 +196,8 @@
         "target": "http://www.joeyday.com/2006/04/30/internet-explorer-7",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 24,
@@ -204,7 +210,8 @@
         "target": "http://en.wikipedia.org/wiki/Cuecat",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 25,
@@ -253,7 +260,8 @@
         "target": "http://www.joeyday.com/2007/03/27/ms-bike-tour-07",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 30,
@@ -319,7 +327,8 @@
         "target": "http://www.flickr.com/photos/joeyday/sets/72157594354882380/",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 38,
@@ -361,7 +370,8 @@
         "target": "http://digg.com/users/joeyday",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 43,
@@ -381,7 +391,8 @@
         "target": "http://www.flickr.com/photos/joeyday",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 45,
@@ -394,7 +405,8 @@
         "target": "http://www.last.fm/user/joeyday",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 46,
@@ -428,7 +440,8 @@
         "target": "http://www.linkedin.com/in/joeyday",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 50,
@@ -448,7 +461,8 @@
         "target": "http://www.vimeo.com/joeyday",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 52,
@@ -506,7 +520,8 @@
         "target": "http://www.joeyday.com/2008/09/09/more-nickels",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 59,
@@ -662,7 +677,8 @@
         "target": "http://en.wikipedia.org/wiki/Sushi#Nigiri-zushi",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 76,
@@ -719,7 +735,8 @@
         "target": "http://en.wikipedia.org/wiki/Ful_medames",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 88,
@@ -748,7 +765,8 @@
         "target": "http://www.last.fm/user/joeyday",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 91,
@@ -761,7 +779,8 @@
         "target": "http://www.amazon.com/registry/wishlist/3TP0N2GTB9U1Q?sort=priority",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 92,
@@ -782,7 +801,8 @@
         "target": "http://get.adobe.com/reader/otherversions/",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 100,
@@ -803,7 +823,8 @@
         "target": "https://joeyday.com/resume",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 103,
@@ -906,7 +927,8 @@
         "target": "http://www.myspace.com/joeynday",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 120,
@@ -927,7 +949,8 @@
         "target": "http://en.wikipedia.org/wiki/User:JoeyDay",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 122,
@@ -940,7 +963,8 @@
         "target": "http://en.wikipedia.org/wiki/User:JoeyDay",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 123,
@@ -961,7 +985,8 @@
         "target": "http://www.youtube.com/user/joeynday",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 125,
@@ -974,7 +999,8 @@
         "target": "http://www.youtube.com/user/joeynday",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 126,
@@ -1032,7 +1058,8 @@
         "target": "http://en.wikipedia.org/wiki/Buffalo_buffalo_Buffalo_buffalo_buffalo_buffalo_Buffalo_buffalo",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 136,
@@ -1052,7 +1079,8 @@
         "target": "http://www.ksl.com/?nid=148&sid=6903191",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 138,
@@ -1111,7 +1139,8 @@
         "target": "http://www.youtube.com/watch?v=yTnL5moadpE",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 144,
@@ -1131,7 +1160,8 @@
         "target": "http://www.youtube.com/watch?v=oHg5SJYRHA0",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 147,
@@ -1164,7 +1194,8 @@
         "target": "http://userscripts.org/scripts/show/9462",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 150,
@@ -1177,7 +1208,8 @@
         "target": "http://www.wolframalpha.com/input/?i=1,000,000,000 seconds in years",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 163,
@@ -1198,7 +1230,8 @@
         "target": "http://www.wolframalpha.com/input/?i=weight of a US nickel in pounds times 1,330",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 159,
@@ -1211,7 +1244,8 @@
         "target": "http://www.wolframalpha.com/input/?i=September 4, 1979   31 years 8 months 15 days",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 160,
@@ -1231,7 +1265,8 @@
         "target": "http://www.wolframalpha.com/input/?i=weight of a US nickel in pounds times 32,000",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 164,
@@ -1252,7 +1287,8 @@
         "target": "http://www.wolframalpha.com/input/?i=21.21 mm * 32,000 in miles",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 166,
@@ -1272,7 +1308,8 @@
         "target": "http://www.wolframalpha.com/input/?i=1.95 mm * 32,000 in feet",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 168,
@@ -1285,7 +1322,8 @@
         "target": "http://en.wikipedia.org/wiki/Erasmus",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 169,
@@ -1298,7 +1336,8 @@
         "target": "http://www.wolframalpha.com/input/?i=the weight of a us nickel * 32,000",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 170,
@@ -1372,7 +1411,8 @@
         "target": "http://www.wolframalpha.com/input/?i=21.21mm * 1,463",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 180,
@@ -1409,7 +1449,8 @@
         "target": "http://www.youtube.com/watch?v=gLBE5QAYXp8",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 184,
@@ -1573,7 +1614,8 @@
         "target": "http://en.wikipedia.org/wiki/Hybrid_positioning_system",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 204,
@@ -1586,7 +1628,8 @@
         "target": "http://en.wikipedia.org/wiki/Skyhook_Wireless",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 205,
@@ -1637,7 +1680,8 @@
         "target": "http://www.joeyday.com",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 211,
@@ -1666,7 +1710,8 @@
         "target": "http://www.techcrunch.com/2009/10/05/googles-experimental-homepage-fades-to-a-single-word/",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 214,
@@ -1694,7 +1739,8 @@
         "target": "http://www.bleepingcomputer.com/combofix/how-to-use-combofix",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 217,
@@ -1756,7 +1802,8 @@
         "target": "http://www.youtube.com/watch?v=rDu2A3WzQpo",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 224,
@@ -1769,7 +1816,8 @@
         "target": "http://www.linkedin.com/in/joeyday",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 226,
@@ -1862,7 +1910,8 @@
         "target": "http://www.youtube.com/watch?v=Knebjf5hoCk",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 236,
@@ -1904,7 +1953,8 @@
         "target": "http://www.youtube.com/watch?v=5TzHbcXYwI4",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 240,
@@ -1975,7 +2025,8 @@
         "target": "http://www.youtube.com/watch?v=Wbzk_0kdTI4",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 248,
@@ -2085,7 +2136,8 @@
         "target": "http://www.flickr.com/photos/makelessnoise/3166908561/sizes/o/",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 261,
@@ -2098,7 +2150,8 @@
         "target": "http://www.flickr.com/photos/makelessnoise/3167741888/sizes/o/",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 262,
@@ -2111,7 +2164,8 @@
         "target": "http://www.flickr.com/photos/seanpants/3698856764/sizes/l/",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 263,
@@ -2124,7 +2178,8 @@
         "target": "http://www.flickr.com/photos/jamiedfw/4044192292/sizes/l/",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 264,
@@ -2137,7 +2192,8 @@
         "target": "http://www.flickr.com/photos/akshun/2121531648/sizes/l/",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 265,
@@ -2150,7 +2206,8 @@
         "target": "http://www.flickr.com/photos/deltamike/2183805935/sizes/l/",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 266,
@@ -2163,7 +2220,8 @@
         "target": "http://en.wikipedia.org/wiki/Fess_Parker",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 267,
@@ -2184,7 +2242,8 @@
         "target": "http://www.flickr.com/photos/calliope/104661075/sizes/l/",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 269,
@@ -2237,7 +2296,8 @@
         "target": "http://lmgtfy.com/?q=pidgin boss button",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 274,
@@ -2263,7 +2323,8 @@
         "target": "http://www.macrumors.com/2010/03/23/iphone-os-to-gain-universal-inbox/",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 276,
@@ -2276,7 +2337,8 @@
         "target": "http://www.familyresource.com/lifestyles/holidays/mothers-day-5-gift-ideas-guaranteed-to-make-a-new-mom-happy",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 277,
@@ -2386,7 +2448,8 @@
         "target": "http://lmgtfy.com/?q=google voice block unavailable caller id&l=1",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 290,
@@ -2399,7 +2462,8 @@
         "target": "http://lmgtfy.com/?q=google voice block unavailable caller id",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 291,
@@ -2435,7 +2499,8 @@
         "target": "http://www.wolframalpha.com/input/?i=16000 * (weight of us nickel)",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 295,
@@ -2448,7 +2513,8 @@
         "target": "http://www.wolframalpha.com/input/?i=32000 * (weight of us nickel)",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 296,
@@ -2525,7 +2591,8 @@
         "target": "http://www.flickr.com/photos/joeyday/sets/72157624271345629/",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 306,
@@ -2538,7 +2605,8 @@
         "target": "http://www.youtube.com/watch?v=cWtPWe7WNbY",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 309,
@@ -2601,7 +2669,8 @@
         "target": "http://www.flickr.com/photos/joeyday/4907686124/in/set-72157624635402461/#/photos/joeyday/4907686124/in/set-72157624635402461/lightbox/",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 315,
@@ -2630,7 +2699,8 @@
         "target": "http://www.joeyday.com/2006/05/02/the-message-of-the-quran",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 318,
@@ -2735,7 +2805,8 @@
         "target": "http://www.purplecar.net/2009/03/how-do-memes-start-a-case-study-100-books-in-facebook/",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 331,
@@ -2763,7 +2834,8 @@
         "target": "http://www.amazon.com/registry/wishlist/1Y4X01XI70HH8?sort=priority",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 334,
@@ -2792,7 +2864,8 @@
         "target": "http://www.amazon.com/registry/wishlist/39OJFODZIRB1F?sort=priority",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 425,
@@ -2820,7 +2893,8 @@
         "target": "http://www.youtube.com/watch?v=PV8kZkFHZ0s",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 340,
@@ -2833,7 +2907,8 @@
         "target": "http://www.joeyday.com/2006/12/20/wrecks",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 341,
@@ -2925,7 +3000,8 @@
         "target": "http://www.php.net/manual/en/function.base-convert.php#52450",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 353,
@@ -2992,7 +3068,8 @@
         "target": "http://en.wikipedia.org/wiki/Fairy_bread",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 361,
@@ -3056,7 +3133,8 @@
         "target": "http://www.joeyday.com/2009/09/07/lds-linker-2-5",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 369,
@@ -3100,7 +3178,8 @@
         "target": "http://en.wikipedia.org/wiki/Relational_algebra",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 376,
@@ -3135,7 +3214,8 @@
         "target": "http://collider.com/wp-content/uploads/transformers-3-poster-banner-01.jpg",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 380,
@@ -3179,7 +3259,8 @@
         "target": "http://www.amazon.com/gp/product/B001EQ55ZO/ref=as_li_ss_tl?ie=UTF8&tag=joeyday-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=B001EQ55ZO",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 385,
@@ -3275,7 +3356,8 @@
         "target": "http://www.flickr.com/photos/joeyday/5564283270/in/set-72157626237887303",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 397,
@@ -3330,7 +3412,8 @@
         "target": "http://www.amazon.com/Duracell-Instant-Charger-Lithium-universal/dp/B002FU6KF2/ref=sr_1_1?ie=UTF8&qid=1310746954&sr=8-1",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 402,
@@ -3379,7 +3462,8 @@
         "target": "http://www.joeyday.com/2011/08/16/my-only-iphone-5-prediction",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 408,
@@ -3405,7 +3489,8 @@
         "target": "http://rentzsch.tumblr.com/post/9133498042/howto-use-utf-8-throughout-your-web-stack",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 410,
@@ -3444,7 +3529,8 @@
         "target": "http://www.cocooninnovations.com/product_info.php?cat_id=&product_id=192",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 413,
@@ -3465,7 +3551,8 @@
         "target": "http://www.joeyday.com/2011/09/19/by-the-grace-of-god-they-were-freely-willing",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 415,
@@ -3478,7 +3565,8 @@
         "target": "http://www.joeyday.com/2011/09/21/toast-paint/",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 416,
@@ -3491,7 +3579,8 @@
         "target": "http://pilotmoon.com/scrollreverser/",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 417,
@@ -3531,7 +3620,8 @@
         "target": "http://www.flickr.com/photos/joeyday/6263310413/in/photostream/lightbox/",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 421,
@@ -3544,7 +3634,8 @@
         "target": "http://www.flickr.com/photos/joeyday/6263317649/in/photostream/lightbox/",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 422,
@@ -3625,7 +3716,8 @@
         "target": "http://www.bleepingcomputer.com/virus-removal/remove-win-7-internet-security-2012",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 460,
@@ -3654,7 +3746,8 @@
         "target": "http://www.imdb.com/title/tt1731141",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 463,
@@ -3727,7 +3820,8 @@
         "target": "http://www.bleepingcomputer.com/virus-removal/remove-security-shield",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 472,
@@ -3740,7 +3834,8 @@
         "target": "http://vimeo.com/39280776",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 473,
@@ -3753,7 +3848,8 @@
         "target": "http://www.joeyday.com/2012/04/08/on-consistency-between-biblical-authors/",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 474,
@@ -3827,7 +3923,8 @@
         "target": "http://en.wikipedia.org/wiki/Moralistic_therapeutic_deism",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 485,
@@ -3992,7 +4089,8 @@
         "target": "http://www.youtube.com/watch?v=AiCFtmdrvHM",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 506,
@@ -4005,7 +4103,8 @@
         "target": "http://www.youtube.com/watch?v=hyGJBV1xnJI",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 507,
@@ -4018,7 +4117,8 @@
         "target": "http://www.youtube.com/watch?v=3CR5y8qZf0Y",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 508,
@@ -4031,7 +4131,8 @@
         "target": "http://www.youtube.com/watch?v=ML4woERjvlk",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 509,
@@ -4044,7 +4145,8 @@
         "target": "http://www.youtube.com/watch?v=pp89tTDxXuI",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 510,
@@ -4100,7 +4202,8 @@
         "target": "http://xkcd.com/1193/",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 516,
@@ -4128,7 +4231,8 @@
         "target": "http://en.wikipedia.org/wiki/Novikov_self-consistency_principle",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 519,
@@ -4161,7 +4265,8 @@
         "target": "http://jday.us/random/eggs",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 524,
@@ -4197,7 +4302,8 @@
         "target": "http://evangelicalarminians.org/the-almost-completely-unknown-difference-that-makes-all-the-difference/",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 528,
@@ -4286,7 +4392,8 @@
         "target": "http://www.theramenrater.com/2012/04/22/715-indomie-mi-goreng-rendang-indonesian-import/",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 544,
@@ -4299,7 +4406,8 @@
         "target": "http://www.theramenrater.com/2011/12/09/re-review-indomie-special-chicken-flavour-instant-noodles/",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 545,
@@ -4312,7 +4420,8 @@
         "target": "http://www.theramenrater.com/2013/11/25/1235-nissin-demae-ramen-miso-tonkotsu-artificial-pork-flavor-ramen-noodle/",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 546,
@@ -4325,7 +4434,8 @@
         "target": "http://www.theramenrater.com/2012/04/06/702-meet-the-manufacturer-nissin-demae-ramen-black-garlic-oil-tonkotsu-flavour-instant-noodle/",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 547,
@@ -4338,7 +4448,8 @@
         "target": "http://www.theramenrater.com/2014/02/06/1304-nissin-demae-ramen-shoyu-tonkotsu-artificial-pork-flavor/",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 548,
@@ -4351,7 +4462,8 @@
         "target": "http://www.theramenrater.com/2011/04/04/341-vina-acecook-daily-vegetarian-flavour-instant-noodles/",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 549,
@@ -4364,7 +4476,8 @@
         "target": "http://www.theramenrater.com/2010/07/28/nissin-demae-ramen-sesame-flavor/",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 550,
@@ -4377,7 +4490,8 @@
         "target": "http://www.theramenrater.com/2010/07/13/nissin-demae-ramen-five-spices-artificial-beef-flavor/",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 551,
@@ -4413,7 +4527,8 @@
         "target": "http://joeyday.com/2015/10/05/sending-off-pastor-tim/",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 555,
@@ -4426,7 +4541,8 @@
         "target": "http://inters.org/galilei-madame-christina-Lorraine",
         "replaced": "2026-10-07"
       }
-    ]
+    ],
+    "approved": true
   },
   {
     "id": 556,
