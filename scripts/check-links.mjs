@@ -3,7 +3,10 @@
 //   --changed=<ref>  only check links that are new or edited compared with links.json at <ref>
 //   --apply          set `broken: true` in links.json for definitively dead links (404/410, domain
 //                    gone, soft-404) and clear it for links that are OK again. Uncertain results
-//                    (bot-blocking, timeouts) never change the flag.
+//                    (bot-blocking, timeouts) never change the flag. Also, when a target permanently
+//                    redirects (every hop 301/308) to a working page, update `target` to the new URL and
+//                    record the old one in the link's `history` (newest first). The build then shows a
+//                    "this link was redirected" page until the link is marked `approved: true`.
 import { readFileSync, writeFileSync, appendFileSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 
@@ -36,7 +39,7 @@ async function probe(url) {
     hops.push(res.status);
     const loc = res.headers.get('location');
     if (res.status >= 300 && res.status < 400 && loc) { cur = new URL(loc, cur).href; continue; }
-    return { status: res.status, finalUrl: cur, hops };
+    return { status: res.status, finalUrl: cur, hops, permanent: hops.length > 1 && hops.slice(0, -1).every((h) => h === 301 || h === 308) };
   }
   return { status: 'loop', finalUrl: cur, hops };
 }
@@ -75,7 +78,7 @@ async function worker() {
       results[i] = { ...link, status: code, final: '', verdict: /ENOTFOUND|EAI_AGAIN/.test(code) ? 'dead (domain gone)' : /TIMEOUT|Timeout|ABORT/i.test(code + e.message) ? 'unreachable (timeout)' : `unreachable (${code})` };
       continue;
     } finally { if (++done % 50 === 0) console.error(`${done}/${links.length}`); }
-    results[i] = { ...link, status: r.status, final: r.finalUrl === enc(link.target) ? '' : r.finalUrl, verdict: classify(link, r) };
+    results[i] = { ...link, permanent: r.permanent, status: r.status, final: r.finalUrl === enc(link.target) ? '' : r.finalUrl, verdict: classify(link, r) };
   }
 }
 await Promise.all(Array.from({ length: 16 }, worker));
@@ -90,12 +93,24 @@ writeFileSync('link-report.json', JSON.stringify(results, null, 2));
 
 const isDead = (v) => v.startsWith('dead') || v.startsWith('soft-404');
 const isOk = (v) => v.startsWith('ok');
-const flagged = [], cleared = [];
+const flagged = [], cleared = [], moved = [];
+const today = new Date().toISOString().slice(0, 10);
 if (apply) {
   const byPath = new Map(results.map((r) => [r.path, r]));
   for (const l of all) {
     const r = byPath.get(l.path);
     if (!r) continue;
+    if (r.permanent && r.final && /^ok/.test(r.verdict)) {
+      // fetch drops #fragments when following redirects, so carry the original one over.
+      const hash = new URL(enc(l.target)).hash;
+      const next = decodeURI(r.final) + (new URL(r.final).hash ? '' : hash);
+      if (next !== l.target) {
+        l.history = [{ target: l.target, replaced: today }, ...(l.history ?? [])];
+        moved.push({ path: l.path, from: l.target, to: next });
+        l.target = next;
+        delete l.approved; // a new move needs a fresh review
+      }
+    }
     if (isDead(r.verdict) && !l.broken) { l.broken = true; flagged.push(r); }
     else if (isOk(r.verdict) && l.broken) { delete l.broken; cleared.push(r); }
   }
@@ -106,6 +121,7 @@ if (apply) {
 if (process.env.GITHUB_STEP_SUMMARY) {
   const bad = results.filter((r) => isDead(r.verdict));
   const lines = [`### Link check: ${results.length} checked, ${bad.length} dead`];
+  if (moved.length) lines.push('', '**Target updated (permanent redirect):**', ...moved.map((m) => `- \`${m.path}\`: ${m.from} → ${m.to}`));
   if (flagged.length) lines.push('', `**Newly flagged broken:** ${flagged.map((r) => `\`${r.path}\``).join(', ')}`);
   if (cleared.length) lines.push('', `**Working again:** ${cleared.map((r) => `\`${r.path}\``).join(', ')}`);
   if (bad.length) lines.push('', '| Link | Verdict | Target |', '|---|---|---|', ...bad.map((r) => `| ${r.path} | ${r.verdict} | ${r.target} |`));

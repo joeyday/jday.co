@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write # commit updated `broken` flags to links.json
+  contents: write # commit updated `broken` flags and targets to links.json
   actions: write  # start a deploy afterwards
 
 jobs:
@@ -18,19 +18,19 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Check all links and update broken flags
+      - name: Check all links, update broken flags and moved targets
         run: node scripts/check-links.mjs --apply
       - name: Commit changes and redeploy
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           if git diff --quiet links.json; then
-            echo "No flag changes."
+            echo "No link changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -am "Update broken-link flags"
+          git commit -am "Update link flags and moved targets"
           git push
           # Pushes made with the default token don't trigger other workflows, so start the deploy explicitly.
           gh workflow run deploy.yml

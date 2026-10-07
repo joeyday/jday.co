@@ -9,7 +9,7 @@ Static site for jday.co: the homepage plus a URL shortener (ported from Shorty).
 
 ## Backlog (URL shortener, in order)
 - [x] Include a link on the redirect page in case the browser doesn't respect meta refresh
-- [ ] Link checker notices when a target is itself a redirect and updates our link to the new URL, keeping a versioned history of where it used to go
+- [x] Link checker notices when a target is itself a redirect and updates our link to the new URL, keeping a versioned history of where it used to go (`history` in links.json, newest first). Updated links show a warning page with old and new URLs until marked `"approved": true` in links.json
 - [ ] `?info` parameter: info page for a link (versions, etc.)
 - [ ] Admin page for adding new links
 - [ ] Admin page can also edit existing links, versioned the same way as checker updates
