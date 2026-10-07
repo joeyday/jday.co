@@ -4340,10 +4340,16 @@
   {
     "id": 534,
     "path": "atonement",
-    "target": "http://totascriptura.org/view/Definite_atonement",
+    "target": "https://totascriptura.org/topic/definite-atonement/",
     "created": "2014-04-09",
     "clicks": 0,
-    "broken": true
+    "history": [
+      {
+        "target": "http://totascriptura.org/view/Definite_atonement",
+        "replaced": "2026-10-06"
+      }
+    ],
+    "approved": true
   },
   {
     "id": 535,
