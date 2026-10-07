@@ -2,16 +2,28 @@
   {
     "id": 8,
     "path": "wishlist/janene",
-    "target": "http://www.amazon.com/registry/wishlist/29N4WR3L01AXB?sort=priority",
+    "target": "https://www.amazon.com/registry/wishlist/29N4WR3L01AXB?sort=priority",
     "created": "2013-12-26",
-    "clicks": 1545
+    "clicks": 1545,
+    "history": [
+      {
+        "target": "http://www.amazon.com/registry/wishlist/29N4WR3L01AXB?sort=priority",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 7,
     "path": "ttcfm",
-    "target": "http://library.lds.org/nxt/gateway.dll/Curriculum/home and family.htm/true to the faith a gospel reference.htm/marriage.htm?f=templates$fn=document-frame.htm$3.0",
+    "target": "https://www.churchofjesuschrist.org/?lang=eng&cid=rdb_v_ldsorg",
     "created": "2009-03-16",
-    "clicks": 1
+    "clicks": 1,
+    "history": [
+      {
+        "target": "http://library.lds.org/nxt/gateway.dll/Curriculum/home and family.htm/true to the faith a gospel reference.htm/marriage.htm?f=templates$fn=document-frame.htm$3.0",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 3,
@@ -38,23 +50,41 @@
   {
     "id": 5,
     "path": "test",
-    "target": "http://www.speedtest.net",
+    "target": "https://www.speedtest.net/",
     "created": "2009-10-28",
-    "clicks": 296
+    "clicks": 296,
+    "history": [
+      {
+        "target": "http://www.speedtest.net",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 9,
     "path": "wishlist",
-    "target": "http://www.amazon.com/registry/wishlist/3TP0N2GTB9U1Q?sort=priority",
+    "target": "https://www.amazon.com/registry/wishlist/3TP0N2GTB9U1Q?sort=priority",
     "created": "2013-12-26",
-    "clicks": 169
+    "clicks": 169,
+    "history": [
+      {
+        "target": "http://www.amazon.com/registry/wishlist/3TP0N2GTB9U1Q?sort=priority",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 10,
     "path": "wishlist/joey",
-    "target": "http://www.amazon.com/registry/wishlist/3TP0N2GTB9U1Q?sort=priority",
+    "target": "https://www.amazon.com/registry/wishlist/3TP0N2GTB9U1Q?sort=priority",
     "created": "2013-12-26",
-    "clicks": 2037
+    "clicks": 2037,
+    "history": [
+      {
+        "target": "http://www.amazon.com/registry/wishlist/3TP0N2GTB9U1Q?sort=priority",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 11,
@@ -66,9 +96,15 @@
   {
     "id": 12,
     "path": "wishlist/family",
-    "target": "http://www.amazon.com/registry/wishlist/3U422ZDB1H7BP?sort=priority",
+    "target": "https://www.amazon.com/registry/wishlist/3U422ZDB1H7BP?sort=priority",
     "created": "2013-12-26",
-    "clicks": 12
+    "clicks": 12,
+    "history": [
+      {
+        "target": "http://www.amazon.com/registry/wishlist/3U422ZDB1H7BP?sort=priority",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 13,
@@ -147,16 +183,28 @@
   {
     "id": 23,
     "path": "ie",
-    "target": "http://www.joeyday.com/2006/04/30/internet-explorer-7",
+    "target": "https://joeyday.com/2006/04/30/internet-explorer-7/",
     "created": "2009-03-16",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "http://www.joeyday.com/2006/04/30/internet-explorer-7",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 24,
     "path": "cuecat",
-    "target": "http://en.wikipedia.org/wiki/Cuecat",
+    "target": "https://en.wikipedia.org/wiki/Cuecat",
     "created": "2009-03-16",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "http://en.wikipedia.org/wiki/Cuecat",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 25,
@@ -169,9 +217,15 @@
   {
     "id": 26,
     "path": "ttfwow",
-    "target": "http://library.lds.org/nxt/gateway.dll/Curriculum/home and family.htm/true to the faith a gospel reference.htm/word of wisdom.htm#JD_36863Wor",
+    "target": "https://www.churchofjesuschrist.org/?lang=eng&cid=rdb_v_ldsorg#JD_36863Wor",
     "created": "2009-03-16",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "http://library.lds.org/nxt/gateway.dll/Curriculum/home and family.htm/true to the faith a gospel reference.htm/word of wisdom.htm#JD_36863Wor",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 27,
@@ -191,9 +245,15 @@
   {
     "id": 29,
     "path": "ms2007",
-    "target": "http://www.joeyday.com/2007/03/27/ms-bike-tour-07",
+    "target": "https://joeyday.com/2007/03/27/ms-bike-tour-07/",
     "created": "2009-03-16",
-    "clicks": 64
+    "clicks": 64,
+    "history": [
+      {
+        "target": "http://www.joeyday.com/2007/03/27/ms-bike-tour-07",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 30,
@@ -251,9 +311,15 @@
   {
     "id": 37,
     "path": "trogdor",
-    "target": "http://www.flickr.com/photos/joeyday/sets/72157594354882380/",
+    "target": "https://www.flickr.com/photos/joeyday/sets/72157594354882380/",
     "created": "2009-03-16",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "http://www.flickr.com/photos/joeyday/sets/72157594354882380/",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 38,
@@ -287,9 +353,15 @@
   {
     "id": 42,
     "path": "digg",
-    "target": "http://digg.com/users/joeyday",
+    "target": "https://digg.com/users/joeyday",
     "created": "2009-03-17",
-    "clicks": 62
+    "clicks": 62,
+    "history": [
+      {
+        "target": "http://digg.com/users/joeyday",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 43,
@@ -301,16 +373,28 @@
   {
     "id": 44,
     "path": "flickr",
-    "target": "http://www.flickr.com/photos/joeyday",
+    "target": "https://www.flickr.com/photos/joeyday",
     "created": "2009-03-17",
-    "clicks": 82
+    "clicks": 82,
+    "history": [
+      {
+        "target": "http://www.flickr.com/photos/joeyday",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 45,
     "path": "last.fm",
-    "target": "http://www.last.fm/user/joeyday",
+    "target": "https://www.last.fm/user/joeyday",
     "created": "2009-03-17",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "http://www.last.fm/user/joeyday",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 46,
@@ -336,9 +420,15 @@
   {
     "id": 49,
     "path": "linkedin",
-    "target": "http://www.linkedin.com/in/joeyday",
+    "target": "https://www.linkedin.com/in/joeyday",
     "created": "2009-03-17",
-    "clicks": 294
+    "clicks": 294,
+    "history": [
+      {
+        "target": "http://www.linkedin.com/in/joeyday",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 50,
@@ -350,9 +440,15 @@
   {
     "id": 51,
     "path": "vimeo",
-    "target": "http://www.vimeo.com/joeyday",
+    "target": "https://vimeo.com/joeyday",
     "created": "2009-03-17",
-    "clicks": 62
+    "clicks": 62,
+    "history": [
+      {
+        "target": "http://www.vimeo.com/joeyday",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 52,
@@ -402,9 +498,15 @@
   {
     "id": 58,
     "path": "2b20e",
-    "target": "http://www.joeyday.com/2008/09/09/more-nickels",
+    "target": "https://joeyday.com/2008/09/09/more-nickels/",
     "created": "2009-03-17",
-    "clicks": 23
+    "clicks": 23,
+    "history": [
+      {
+        "target": "http://www.joeyday.com/2008/09/09/more-nickels",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 59,
@@ -454,9 +556,15 @@
   {
     "id": 65,
     "path": "2rf",
-    "target": "http://www.youtube.com/watch?v=NV_w0R8snhEhttp://www.youtube.com/watch?v=NV_w0R8snhE",
+    "target": "https://www.youtube.com/watch?v=NV_w0R8snhEhttp%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DNV_w0R8snhE",
     "created": "2009-03-17",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "http://www.youtube.com/watch?v=NV_w0R8snhEhttp://www.youtube.com/watch?v=NV_w0R8snhE",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 66,
@@ -546,9 +654,15 @@
   {
     "id": 75,
     "path": "1n5",
-    "target": "http://en.wikipedia.org/wiki/Sushi#Nigiri-zushi",
+    "target": "https://en.wikipedia.org/wiki/Sushi#Nigiri-zushi",
     "created": "2009-03-17",
-    "clicks": 5
+    "clicks": 5,
+    "history": [
+      {
+        "target": "http://en.wikipedia.org/wiki/Sushi#Nigiri-zushi",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 76,
@@ -597,9 +711,15 @@
   {
     "id": 87,
     "path": "by",
-    "target": "http://en.wikipedia.org/wiki/Ful_medames",
+    "target": "https://en.wikipedia.org/wiki/Ful_medames",
     "created": "2009-03-19",
-    "clicks": 32
+    "clicks": 32,
+    "history": [
+      {
+        "target": "http://en.wikipedia.org/wiki/Ful_medames",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 88,
@@ -620,16 +740,28 @@
   {
     "id": 90,
     "path": "lastfm",
-    "target": "http://www.last.fm/user/joeyday",
+    "target": "https://www.last.fm/user/joeyday",
     "created": "2009-03-20",
-    "clicks": 58
+    "clicks": 58,
+    "history": [
+      {
+        "target": "http://www.last.fm/user/joeyday",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 91,
     "path": "wlist",
-    "target": "http://www.amazon.com/registry/wishlist/3TP0N2GTB9U1Q?sort=priority",
+    "target": "https://www.amazon.com/registry/wishlist/3TP0N2GTB9U1Q?sort=priority",
     "created": "2013-12-26",
-    "clicks": 202
+    "clicks": 202,
+    "history": [
+      {
+        "target": "http://www.amazon.com/registry/wishlist/3TP0N2GTB9U1Q?sort=priority",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 92,
@@ -642,9 +774,15 @@
   {
     "id": 101,
     "path": "reader8",
-    "target": "http://get.adobe.com/reader/otherversions/",
+    "target": "https://get.adobe.com/reader/otherversions/",
     "created": "2009-03-27",
-    "clicks": 11
+    "clicks": 11,
+    "history": [
+      {
+        "target": "http://get.adobe.com/reader/otherversions/",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 100,
@@ -657,9 +795,15 @@
   {
     "id": 102,
     "path": "resume",
-    "target": "https://joeyday.com/resume",
+    "target": "https://joeyday.com/resume/",
     "created": "2017-09-14",
-    "clicks": 1216
+    "clicks": 1216,
+    "history": [
+      {
+        "target": "https://joeyday.com/resume",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 103,
@@ -688,9 +832,15 @@
   {
     "id": 106,
     "path": "csgina",
-    "target": "http://it.thelibrarie.com/weblog/?p=31",
+    "target": "https://it.thelibrarie.com/weblog/2007/11/cisco-vpn-csginadll-failed-to-load/",
     "created": "2009-04-14",
-    "clicks": 1
+    "clicks": 1,
+    "history": [
+      {
+        "target": "http://it.thelibrarie.com/weblog/?p=31",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 132,
@@ -748,9 +898,15 @@
   {
     "id": 119,
     "path": "myspace",
-    "target": "http://www.myspace.com/joeynday",
+    "target": "https://myspace.com/joeynday",
     "created": "2009-04-29",
-    "clicks": 64
+    "clicks": 64,
+    "history": [
+      {
+        "target": "http://www.myspace.com/joeynday",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 120,
@@ -763,16 +919,28 @@
   {
     "id": 121,
     "path": "wpedia",
-    "target": "http://en.wikipedia.org/wiki/User:JoeyDay",
+    "target": "https://en.wikipedia.org/wiki/User:JoeyDay",
     "created": "2009-04-29",
-    "clicks": 128
+    "clicks": 128,
+    "history": [
+      {
+        "target": "http://en.wikipedia.org/wiki/User:JoeyDay",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 122,
     "path": "wikipedia",
-    "target": "http://en.wikipedia.org/wiki/User:JoeyDay",
+    "target": "https://en.wikipedia.org/wiki/User:JoeyDay",
     "created": "2009-04-29",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "http://en.wikipedia.org/wiki/User:JoeyDay",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 123,
@@ -785,16 +953,28 @@
   {
     "id": 124,
     "path": "ytube",
-    "target": "http://www.youtube.com/user/joeynday",
+    "target": "https://www.youtube.com/user/joeynday",
     "created": "2009-04-29",
-    "clicks": 1
+    "clicks": 1,
+    "history": [
+      {
+        "target": "http://www.youtube.com/user/joeynday",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 125,
     "path": "youtube",
-    "target": "http://www.youtube.com/user/joeynday",
+    "target": "https://www.youtube.com/user/joeynday",
     "created": "2009-04-29",
-    "clicks": 99
+    "clicks": 99,
+    "history": [
+      {
+        "target": "http://www.youtube.com/user/joeynday",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 126,
@@ -844,9 +1024,15 @@
   {
     "id": 135,
     "path": "buffalo",
-    "target": "http://en.wikipedia.org/wiki/Buffalo_buffalo_Buffalo_buffalo_buffalo_buffalo_Buffalo_buffalo",
+    "target": "https://en.wikipedia.org/wiki/Buffalo_buffalo_Buffalo_buffalo_buffalo_buffalo_Buffalo_buffalo",
     "created": "2009-06-23",
-    "clicks": 14
+    "clicks": 14,
+    "history": [
+      {
+        "target": "http://en.wikipedia.org/wiki/Buffalo_buffalo_Buffalo_buffalo_buffalo_buffalo_Buffalo_buffalo",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 136,
@@ -858,9 +1044,15 @@
   {
     "id": 137,
     "path": "ou",
-    "target": "http://www.ksl.com/?nid=148&sid=6903191",
+    "target": "https://www.ksl.com/?nid=148&sid=6903191",
     "created": "2009-06-24",
-    "clicks": 3
+    "clicks": 3,
+    "history": [
+      {
+        "target": "http://www.ksl.com/?nid=148&sid=6903191",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 138,
@@ -911,9 +1103,15 @@
   {
     "id": 145,
     "path": "gk",
-    "target": "http://www.youtube.com/watch?v=yTnL5moadpE",
+    "target": "https://www.youtube.com/watch?v=yTnL5moadpE",
     "created": "2009-08-06",
-    "clicks": 54
+    "clicks": 54,
+    "history": [
+      {
+        "target": "http://www.youtube.com/watch?v=yTnL5moadpE",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 144,
@@ -925,16 +1123,28 @@
   {
     "id": 146,
     "path": "vr",
-    "target": "http://www.youtube.com/watch?v=oHg5SJYRHA0",
+    "target": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
     "created": "2009-08-26",
-    "clicks": 2
+    "clicks": 2,
+    "history": [
+      {
+        "target": "http://www.youtube.com/watch?v=oHg5SJYRHA0",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 147,
     "path": "lds-linker",
-    "target": "http://wordpress.org/extend/plugins/lds-linker",
+    "target": "https://wordpress.org/plugins/lds-linker/",
     "created": "2009-08-30",
-    "clicks": 910
+    "clicks": 910,
+    "history": [
+      {
+        "target": "http://wordpress.org/extend/plugins/lds-linker",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 148,
@@ -946,16 +1156,28 @@
   {
     "id": 149,
     "path": "sp",
-    "target": "http://userscripts.org/scripts/show/9462",
+    "target": "https://userscripts.org/scripts/show/9462",
     "created": "2009-08-31",
-    "clicks": 70
+    "clicks": 70,
+    "history": [
+      {
+        "target": "http://userscripts.org/scripts/show/9462",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 150,
     "path": "1u",
-    "target": "http://www.wolframalpha.com/input/?i=1,000,000,000 seconds in years",
+    "target": "https://www.wolframalpha.com/input/?i=1,000,000,000 seconds in years",
     "created": "2009-09-01",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "http://www.wolframalpha.com/input/?i=1,000,000,000 seconds in years",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 163,
@@ -968,16 +1190,28 @@
   {
     "id": 162,
     "path": "q6",
-    "target": "http://www.wolframalpha.com/input/?i=weight of a US nickel in pounds times 1,330",
+    "target": "https://www.wolframalpha.com/input/?i=weight of a US nickel in pounds times 1,330",
     "created": "2009-09-02",
-    "clicks": 7
+    "clicks": 7,
+    "history": [
+      {
+        "target": "http://www.wolframalpha.com/input/?i=weight of a US nickel in pounds times 1,330",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 159,
     "path": "dn",
-    "target": "http://www.wolframalpha.com/input/?i=September 4, 1979   31 years 8 months 15 days",
+    "target": "https://www.wolframalpha.com/input/?i=September 4, 1979   31 years 8 months 15 days",
     "created": "2009-09-01",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "http://www.wolframalpha.com/input/?i=September 4, 1979   31 years 8 months 15 days",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 160,
@@ -989,9 +1223,15 @@
   {
     "id": 161,
     "path": "hd",
-    "target": "http://www.wolframalpha.com/input/?i=weight of a US nickel in pounds times 32,000",
+    "target": "https://www.wolframalpha.com/input/?i=weight of a US nickel in pounds times 32,000",
     "created": "2009-09-02",
-    "clicks": 4
+    "clicks": 4,
+    "history": [
+      {
+        "target": "http://www.wolframalpha.com/input/?i=weight of a US nickel in pounds times 32,000",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 164,
@@ -1004,9 +1244,15 @@
   {
     "id": 165,
     "path": "rb",
-    "target": "http://www.wolframalpha.com/input/?i=21.21 mm * 32,000 in miles",
+    "target": "https://www.wolframalpha.com/input/?i=21.21 mm * 32,000 in miles",
     "created": "2009-09-04",
-    "clicks": 2
+    "clicks": 2,
+    "history": [
+      {
+        "target": "http://www.wolframalpha.com/input/?i=21.21 mm * 32,000 in miles",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 166,
@@ -1018,23 +1264,41 @@
   {
     "id": 167,
     "path": "wu",
-    "target": "http://www.wolframalpha.com/input/?i=1.95 mm * 32,000 in feet",
+    "target": "https://www.wolframalpha.com/input/?i=1.95 mm * 32,000 in feet",
     "created": "2009-09-04",
-    "clicks": 1
+    "clicks": 1,
+    "history": [
+      {
+        "target": "http://www.wolframalpha.com/input/?i=1.95 mm * 32,000 in feet",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 168,
     "path": "w/erasmus",
-    "target": "http://en.wikipedia.org/wiki/Erasmus",
+    "target": "https://en.wikipedia.org/wiki/Erasmus",
     "created": "2009-09-05",
-    "clicks": 1
+    "clicks": 1,
+    "history": [
+      {
+        "target": "http://en.wikipedia.org/wiki/Erasmus",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 169,
     "path": "bo",
-    "target": "http://www.wolframalpha.com/input/?i=the weight of a us nickel * 32,000",
+    "target": "https://www.wolframalpha.com/input/?i=the weight of a us nickel * 32,000",
     "created": "2009-09-11",
-    "clicks": 32
+    "clicks": 32,
+    "history": [
+      {
+        "target": "http://www.wolframalpha.com/input/?i=the weight of a us nickel * 32,000",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 170,
@@ -1100,9 +1364,15 @@
   {
     "id": 179,
     "path": "rs",
-    "target": "http://www.wolframalpha.com/input/?i=21.21mm * 1,463",
+    "target": "https://www.wolframalpha.com/input/?i=21.21mm * 1,463",
     "created": "2009-09-22",
-    "clicks": 26
+    "clicks": 26,
+    "history": [
+      {
+        "target": "http://www.wolframalpha.com/input/?i=21.21mm * 1,463",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 180,
@@ -1131,9 +1401,15 @@
   {
     "id": 183,
     "path": "x8",
-    "target": "http://www.youtube.com/watch?v=gLBE5QAYXp8",
+    "target": "https://www.youtube.com/watch?v=gLBE5QAYXp8",
     "created": "2009-09-26",
-    "clicks": 2
+    "clicks": 2,
+    "history": [
+      {
+        "target": "http://www.youtube.com/watch?v=gLBE5QAYXp8",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 184,
@@ -1208,9 +1484,15 @@
   {
     "id": 193,
     "path": "pk",
-    "target": "http://build.chromium.org/buildbot/snapshots/chromium-rel-mac/",
+    "target": "https://ci.chromium.org/p/chromium/g/main/console",
     "created": "2009-10-07",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "http://build.chromium.org/buildbot/snapshots/chromium-rel-mac/",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 194,
@@ -1283,16 +1565,28 @@
   {
     "id": 203,
     "path": "u7",
-    "target": "http://en.wikipedia.org/wiki/Hybrid_positioning_system",
+    "target": "https://en.wikipedia.org/wiki/Hybrid_positioning_system",
     "created": "2009-10-24",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "http://en.wikipedia.org/wiki/Hybrid_positioning_system",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 204,
     "path": "sf",
-    "target": "http://en.wikipedia.org/wiki/Skyhook_Wireless",
+    "target": "https://en.wikipedia.org/wiki/Skyhook_Wireless",
     "created": "2009-10-24",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "http://en.wikipedia.org/wiki/Skyhook_Wireless",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 205,
@@ -1335,9 +1629,15 @@
   {
     "id": 210,
     "path": "blog",
-    "target": "http://www.joeyday.com",
+    "target": "https://joeyday.com/",
     "created": "2009-10-28",
-    "clicks": 424
+    "clicks": 424,
+    "history": [
+      {
+        "target": "http://www.joeyday.com",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 211,
@@ -1358,9 +1658,15 @@
   {
     "id": 213,
     "path": "sw",
-    "target": "http://www.techcrunch.com/2009/10/05/googles-experimental-homepage-fades-to-a-single-word/",
+    "target": "https://techcrunch.com/2009/10/05/googles-experimental-homepage-fades-to-a-single-word/",
     "created": "2009-10-28",
-    "clicks": 80
+    "clicks": 80,
+    "history": [
+      {
+        "target": "http://www.techcrunch.com/2009/10/05/googles-experimental-homepage-fades-to-a-single-word/",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 214,
@@ -1380,9 +1686,15 @@
   {
     "id": 216,
     "path": "combofix",
-    "target": "http://www.bleepingcomputer.com/combofix/how-to-use-combofix",
+    "target": "https://www.bleepingcomputer.com/combofix/how-to-use-combofix",
     "created": "2009-10-29",
-    "clicks": 294
+    "clicks": 294,
+    "history": [
+      {
+        "target": "http://www.bleepingcomputer.com/combofix/how-to-use-combofix",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 217,
@@ -1416,9 +1728,15 @@
   {
     "id": 221,
     "path": "if",
-    "target": "http://mediamemo.allthingsd.com/20090822/the-odd-tale-of-facebook-tipjoy-the-deal-that-didnt-happen-and-the-hire-that-did/",
+    "target": "https://allthingsd.com/author/peter/",
     "created": "2009-11-06",
-    "clicks": 1
+    "clicks": 1,
+    "history": [
+      {
+        "target": "http://mediamemo.allthingsd.com/20090822/the-odd-tale-of-facebook-tipjoy-the-deal-that-didnt-happen-and-the-hire-that-did/",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 222,
@@ -1430,16 +1748,28 @@
   {
     "id": 223,
     "path": "rg",
-    "target": "http://www.youtube.com/watch?v=rDu2A3WzQpo",
+    "target": "https://www.youtube.com/watch?v=rDu2A3WzQpo",
     "created": "2009-11-07",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "http://www.youtube.com/watch?v=rDu2A3WzQpo",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 224,
     "path": "in",
-    "target": "http://www.linkedin.com/in/joeyday",
+    "target": "https://www.linkedin.com/in/joeyday",
     "created": "2009-11-10",
-    "clicks": 2
+    "clicks": 2,
+    "history": [
+      {
+        "target": "http://www.linkedin.com/in/joeyday",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 226,
@@ -1490,16 +1820,28 @@
   {
     "id": 232,
     "path": "tgtest",
-    "target": "http://support.pearsoncmg.com/testgen/tgPluginTest.htm",
+    "target": "https://media.pearsoncmg.com/bc/bc_0global/retired/site-no-longer-available.html",
     "created": "2009-11-30",
-    "clicks": 4
+    "clicks": 4,
+    "history": [
+      {
+        "target": "http://support.pearsoncmg.com/testgen/tgPluginTest.htm",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 233,
     "path": "tg",
-    "target": "http://info.pearsoncmg.com/testgen",
+    "target": "https://www.pearson.com/en-us/higher-education/products-services/mylab.html",
     "created": "2009-11-30",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "http://info.pearsoncmg.com/testgen",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 234,
@@ -1512,16 +1854,28 @@
   {
     "id": 235,
     "path": "re",
-    "target": "http://www.youtube.com/watch?v=Knebjf5hoCk",
+    "target": "https://www.youtube.com/watch?v=Knebjf5hoCk",
     "created": "2009-12-18",
-    "clicks": 1
+    "clicks": 1,
+    "history": [
+      {
+        "target": "http://www.youtube.com/watch?v=Knebjf5hoCk",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 236,
     "path": "glist",
-    "target": "http://froogle.google.com/shoppinglist?a=SWL&email=joeyday@gmail.com&id=6181654521908606968",
+    "target": "https://www.google.com/shopping?udm=28",
     "created": "2009-12-23",
-    "clicks": 2
+    "clicks": 2,
+    "history": [
+      {
+        "target": "http://froogle.google.com/shoppinglist?a=SWL&email=joeyday@gmail.com&id=6181654521908606968",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 237,
@@ -1542,9 +1896,15 @@
   {
     "id": 239,
     "path": "yb",
-    "target": "http://www.youtube.com/watch?v=5TzHbcXYwI4",
+    "target": "https://www.youtube.com/watch?v=5TzHbcXYwI4",
     "created": "2010-02-03",
-    "clicks": 1
+    "clicks": 1,
+    "history": [
+      {
+        "target": "http://www.youtube.com/watch?v=5TzHbcXYwI4",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 240,
@@ -1587,9 +1947,15 @@
   {
     "id": 245,
     "path": "he",
-    "target": "http://www.deadoraliveinfo.com/dead.nsf/gnames-nf/Graham Billy",
+    "target": "http://www.deadoraliveinfo.com/names/Billy_Graham",
     "created": "2010-02-18",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "http://www.deadoraliveinfo.com/dead.nsf/gnames-nf/Graham Billy",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 246,
@@ -1601,16 +1967,28 @@
   {
     "id": 247,
     "path": "yd",
-    "target": "http://www.youtube.com/watch?v=Wbzk_0kdTI4",
+    "target": "https://www.youtube.com/watch?v=Wbzk_0kdTI4",
     "created": "2010-02-24",
-    "clicks": 6
+    "clicks": 6,
+    "history": [
+      {
+        "target": "http://www.youtube.com/watch?v=Wbzk_0kdTI4",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 248,
     "path": "qd",
-    "target": "http://www.meaningfulfunerals.net/fh/obituaries/obituary.cfm?o_id=516229&fh_id=10812&s_id=958266F0E98FF9403020FF71F84C75B0",
+    "target": "https://www.meaningfulfunerals.net/obituary?o_id=516229&fh_id=10812&s_id=958266F0E98FF9403020FF71F84C75B0",
     "created": "2010-02-24",
-    "clicks": 101
+    "clicks": 101,
+    "history": [
+      {
+        "target": "http://www.meaningfulfunerals.net/fh/obituaries/obituary.cfm?o_id=516229&fh_id=10812&s_id=958266F0E98FF9403020FF71F84C75B0",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 249,
@@ -1699,51 +2077,93 @@
   {
     "id": 260,
     "path": "qn",
-    "target": "http://www.flickr.com/photos/makelessnoise/3166908561/sizes/o/",
+    "target": "https://www.flickr.com/photos/makelessnoise/3166908561/sizes/o/",
     "created": "2010-03-19",
-    "clicks": 6
+    "clicks": 6,
+    "history": [
+      {
+        "target": "http://www.flickr.com/photos/makelessnoise/3166908561/sizes/o/",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 261,
     "path": "lq",
-    "target": "http://www.flickr.com/photos/makelessnoise/3167741888/sizes/o/",
+    "target": "https://www.flickr.com/photos/makelessnoise/3167741888/sizes/o/",
     "created": "2010-03-19",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "http://www.flickr.com/photos/makelessnoise/3167741888/sizes/o/",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 262,
     "path": "mf",
-    "target": "http://www.flickr.com/photos/seanpants/3698856764/sizes/l/",
+    "target": "https://www.flickr.com/photos/seanpants/3698856764/sizes/l/",
     "created": "2010-03-19",
-    "clicks": 5
+    "clicks": 5,
+    "history": [
+      {
+        "target": "http://www.flickr.com/photos/seanpants/3698856764/sizes/l/",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 263,
     "path": "mn",
-    "target": "http://www.flickr.com/photos/jamiedfw/4044192292/sizes/l/",
+    "target": "https://www.flickr.com/photos/jamiedfw/4044192292/sizes/l/",
     "created": "2010-03-19",
-    "clicks": 7
+    "clicks": 7,
+    "history": [
+      {
+        "target": "http://www.flickr.com/photos/jamiedfw/4044192292/sizes/l/",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 264,
     "path": "bx",
-    "target": "http://www.flickr.com/photos/akshun/2121531648/sizes/l/",
+    "target": "https://www.flickr.com/photos/akshun/2121531648/sizes/l/",
     "created": "2010-03-19",
-    "clicks": 6
+    "clicks": 6,
+    "history": [
+      {
+        "target": "http://www.flickr.com/photos/akshun/2121531648/sizes/l/",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 265,
     "path": "be",
-    "target": "http://www.flickr.com/photos/deltamike/2183805935/sizes/l/",
+    "target": "https://www.flickr.com/photos/deltamike/2183805935/sizes/l/",
     "created": "2010-03-19",
-    "clicks": 5
+    "clicks": 5,
+    "history": [
+      {
+        "target": "http://www.flickr.com/photos/deltamike/2183805935/sizes/l/",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 266,
     "path": "on",
-    "target": "http://en.wikipedia.org/wiki/Fess_Parker",
+    "target": "https://en.wikipedia.org/wiki/Fess_Parker",
     "created": "2010-03-19",
-    "clicks": 2
+    "clicks": 2,
+    "history": [
+      {
+        "target": "http://en.wikipedia.org/wiki/Fess_Parker",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 267,
@@ -1756,16 +2176,28 @@
   {
     "id": 268,
     "path": "46",
-    "target": "http://www.flickr.com/photos/calliope/104661075/sizes/l/",
+    "target": "https://www.flickr.com/photos/calliope/104661075/sizes/l/",
     "created": "2010-03-20",
-    "clicks": 1
+    "clicks": 1,
+    "history": [
+      {
+        "target": "http://www.flickr.com/photos/calliope/104661075/sizes/l/",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 269,
     "path": "tw",
-    "target": "http://www.desiringgod.org/media/pdf/books_bdg/bdg.pdf",
+    "target": "http://cdn.desiringgod.org/pdf/books_bdg/bdg.pdf",
     "created": "2010-03-20",
-    "clicks": 1
+    "clicks": 1,
+    "history": [
+      {
+        "target": "http://www.desiringgod.org/media/pdf/books_bdg/bdg.pdf",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 270,
@@ -1777,9 +2209,15 @@
   {
     "id": 271,
     "path": "pt",
-    "target": "http://www.google.com/support/talk/bin/static.py?page=troubleshooter.cs&problem=talk&selected=thirdparty1a&ctx=talk_thirdparty1a_24073",
+    "target": "https://support.google.com/talk/?page=troubleshooter.cs&problem=talk&selected=thirdparty1a&ctx=talk_thirdparty1a_24073",
     "created": "2010-03-24",
-    "clicks": 3
+    "clicks": 3,
+    "history": [
+      {
+        "target": "http://www.google.com/support/talk/bin/static.py?page=troubleshooter.cs&problem=talk&selected=thirdparty1a&ctx=talk_thirdparty1a_24073",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 272,
@@ -1791,30 +2229,54 @@
   {
     "id": 273,
     "path": "hp",
-    "target": "http://lmgtfy.com/?q=pidgin boss button",
+    "target": "https://lmgtfy.com/?q=pidgin boss button",
     "created": "2010-03-24",
-    "clicks": 3
+    "clicks": 3,
+    "history": [
+      {
+        "target": "http://lmgtfy.com/?q=pidgin boss button",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 274,
     "path": "wb",
-    "target": "http://www.google.com/support/voice/bin/answer.py?hl=en&answer=115114",
+    "target": "https://support.google.com/voice/answer/115114?hl=en",
     "created": "2010-03-25",
-    "clicks": 3
+    "clicks": 3,
+    "history": [
+      {
+        "target": "http://www.google.com/support/voice/bin/answer.py?hl=en&answer=115114",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 275,
     "path": "em",
-    "target": "http://www.macrumors.com/2010/03/23/iphone-os-to-gain-universal-inbox/",
+    "target": "https://www.macrumors.com/2010/03/23/iphone-os-to-gain-universal-inbox/",
     "created": "2010-03-26",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "http://www.macrumors.com/2010/03/23/iphone-os-to-gain-universal-inbox/",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 276,
     "path": "oy",
-    "target": "http://www.familyresource.com/lifestyles/holidays/mothers-day-5-gift-ideas-guaranteed-to-make-a-new-mom-happy",
+    "target": "https://www.familyresource.com/lifestyles/holidays/mothers-day-5-gift-ideas-guaranteed-to-make-a-new-mom-happy",
     "created": "2010-03-30",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "http://www.familyresource.com/lifestyles/holidays/mothers-day-5-gift-ideas-guaranteed-to-make-a-new-mom-happy",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 277,
@@ -1850,9 +2312,15 @@
   {
     "id": 281,
     "path": "rkill",
-    "target": "http://www.bleepingcomputer.com/download/anti-virus/rkill",
+    "target": "https://www.bleepingcomputer.com/download/rkill/",
     "created": "2011-05-18",
-    "clicks": 116
+    "clicks": 116,
+    "history": [
+      {
+        "target": "http://www.bleepingcomputer.com/download/anti-virus/rkill",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 282,
@@ -1910,16 +2378,28 @@
   {
     "id": 289,
     "path": "s6",
-    "target": "http://lmgtfy.com/?q=google voice block unavailable caller id&l=1",
+    "target": "https://lmgtfy.com/?q=google voice block unavailable caller id&l=1",
     "created": "2010-04-26",
-    "clicks": 1
+    "clicks": 1,
+    "history": [
+      {
+        "target": "http://lmgtfy.com/?q=google voice block unavailable caller id&l=1",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 290,
     "path": "6q",
-    "target": "http://lmgtfy.com/?q=google voice block unavailable caller id",
+    "target": "https://lmgtfy.com/?q=google voice block unavailable caller id",
     "created": "2010-04-26",
-    "clicks": 2
+    "clicks": 2,
+    "history": [
+      {
+        "target": "http://lmgtfy.com/?q=google voice block unavailable caller id",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 291,
@@ -1947,16 +2427,28 @@
   {
     "id": 294,
     "path": "p0",
-    "target": "http://www.wolframalpha.com/input/?i=16000 * (weight of us nickel)",
+    "target": "https://www.wolframalpha.com/input/?i=16000 * (weight of us nickel)",
     "created": "2010-04-30",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "http://www.wolframalpha.com/input/?i=16000 * (weight of us nickel)",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 295,
     "path": "xl",
-    "target": "http://www.wolframalpha.com/input/?i=32000 * (weight of us nickel)",
+    "target": "https://www.wolframalpha.com/input/?i=32000 * (weight of us nickel)",
     "created": "2010-04-30",
-    "clicks": 1
+    "clicks": 1,
+    "history": [
+      {
+        "target": "http://www.wolframalpha.com/input/?i=32000 * (weight of us nickel)",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 296,
@@ -1984,16 +2476,28 @@
   {
     "id": 299,
     "path": "tq",
-    "target": "http://thegospelcoalition.org/blogs/justintaylor/2009/11/16/piper-qa/",
+    "target": "https://www.thegospelcoalition.org/blogs/justin-taylor/piper-qa/",
     "created": "2010-06-02",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "http://thegospelcoalition.org/blogs/justintaylor/2009/11/16/piper-qa/",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 300,
     "path": "hx",
-    "target": "http://support.lexmark.com/index?page=downloadFile&actp=CONTENT&productCode=LEXMARK_X5470&id=DR7353&segment=DOWNLOAD&userlocale=EN_US&locale=en",
+    "target": "https://support.lexmark.com/en_us/printers/printer/X5470/online-article/DR7353.html",
     "created": "2010-06-08",
-    "clicks": 4
+    "clicks": 4,
+    "history": [
+      {
+        "target": "http://support.lexmark.com/index?page=downloadFile&actp=CONTENT&productCode=LEXMARK_X5470&id=DR7353&segment=DOWNLOAD&userlocale=EN_US&locale=en",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 303,
@@ -2013,16 +2517,28 @@
   {
     "id": 305,
     "path": "lw",
-    "target": "http://www.flickr.com/photos/joeyday/sets/72157624271345629/",
+    "target": "https://www.flickr.com/photos/joeyday/sets/72157624271345629/",
     "created": "2010-07-01",
-    "clicks": 138
+    "clicks": 138,
+    "history": [
+      {
+        "target": "http://www.flickr.com/photos/joeyday/sets/72157624271345629/",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 306,
     "path": "1stbath",
-    "target": "http://www.youtube.com/watch?v=cWtPWe7WNbY",
+    "target": "https://www.youtube.com/watch?v=cWtPWe7WNbY",
     "created": "2010-07-03",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "http://www.youtube.com/watch?v=cWtPWe7WNbY",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 309,
@@ -2042,9 +2558,15 @@
   {
     "id": 310,
     "path": "bp",
-    "target": "http://www.qwest.com/internethelp/modems/q1000/modemDetail_q1000_drivers.html",
+    "target": "http://internethelp.centurylink.com/internethelp/modems/q1000/modemDetail_q1000_drivers.html",
     "created": "2010-07-13",
-    "clicks": 4
+    "clicks": 4,
+    "history": [
+      {
+        "target": "http://www.qwest.com/internethelp/modems/q1000/modemDetail_q1000_drivers.html",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 311,
@@ -2071,9 +2593,15 @@
   {
     "id": 314,
     "path": "mj",
-    "target": "http://www.flickr.com/photos/joeyday/4907686124/in/set-72157624635402461/#/photos/joeyday/4907686124/in/set-72157624635402461/lightbox/",
+    "target": "https://www.flickr.com/photos/joeyday/4907686124/in/set-72157624635402461/#/photos/joeyday/4907686124/in/set-72157624635402461/lightbox/",
     "created": "2010-08-19",
-    "clicks": 1
+    "clicks": 1,
+    "history": [
+      {
+        "target": "http://www.flickr.com/photos/joeyday/4907686124/in/set-72157624635402461/#/photos/joeyday/4907686124/in/set-72157624635402461/lightbox/",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 315,
@@ -2094,9 +2622,15 @@
   {
     "id": 317,
     "path": "quran",
-    "target": "http://www.joeyday.com/2006/05/02/the-message-of-the-quran",
+    "target": "https://joeyday.com/2006/05/02/the-message-of-the-quran/",
     "created": "2010-09-13",
-    "clicks": 1
+    "clicks": 1,
+    "history": [
+      {
+        "target": "http://www.joeyday.com/2006/05/02/the-message-of-the-quran",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 318,
@@ -2193,9 +2727,15 @@
   {
     "id": 330,
     "path": "qg",
-    "target": "http://www.purplecar.net/2009/03/how-do-memes-start-a-case-study-100-books-in-facebook/",
+    "target": "https://www.purplecar.net/2009/03/how-do-memes-start-a-case-study-100-books-in-facebook/",
     "created": "2010-11-19",
-    "clicks": 7
+    "clicks": 7,
+    "history": [
+      {
+        "target": "http://www.purplecar.net/2009/03/how-do-memes-start-a-case-study-100-books-in-facebook/",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 331,
@@ -2215,9 +2755,15 @@
   {
     "id": 333,
     "path": "booklist",
-    "target": "http://www.amazon.com/registry/wishlist/1Y4X01XI70HH8?sort=priority",
+    "target": "https://www.amazon.com/registry/wishlist/1Y4X01XI70HH8?sort=priority",
     "created": "2013-12-26",
-    "clicks": 35
+    "clicks": 35,
+    "history": [
+      {
+        "target": "http://www.amazon.com/registry/wishlist/1Y4X01XI70HH8?sort=priority",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 334,
@@ -2238,9 +2784,15 @@
   {
     "id": 336,
     "path": "wishlist/eli",
-    "target": "http://www.amazon.com/registry/wishlist/39OJFODZIRB1F?sort=priority",
+    "target": "https://www.amazon.com/registry/wishlist/39OJFODZIRB1F?sort=priority",
     "created": "2013-12-26",
-    "clicks": 11
+    "clicks": 11,
+    "history": [
+      {
+        "target": "http://www.amazon.com/registry/wishlist/39OJFODZIRB1F?sort=priority",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 425,
@@ -2260,16 +2812,28 @@
   {
     "id": 339,
     "path": "giggling",
-    "target": "http://www.youtube.com/watch?v=PV8kZkFHZ0s",
+    "target": "https://www.youtube.com/watch?v=PV8kZkFHZ0s",
     "created": "2010-12-13",
-    "clicks": 2
+    "clicks": 2,
+    "history": [
+      {
+        "target": "http://www.youtube.com/watch?v=PV8kZkFHZ0s",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 340,
     "path": "wrecks",
-    "target": "http://www.joeyday.com/2006/12/20/wrecks",
+    "target": "https://joeyday.com/2006/12/20/wrecks/",
     "created": "2010-12-14",
-    "clicks": 1
+    "clicks": 1,
+    "history": [
+      {
+        "target": "http://www.joeyday.com/2006/12/20/wrecks",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 341,
@@ -2297,9 +2861,15 @@
   {
     "id": 344,
     "path": "s3",
-    "target": "http://thegospelcoalition.org/blogs/justintaylor/2010/12/31/bible-reading-plans-3/",
+    "target": "https://www.thegospelcoalition.org/blogs/justin-taylor/bible-reading-plans-3/",
     "created": "2011-01-01",
-    "clicks": 20
+    "clicks": 20,
+    "history": [
+      {
+        "target": "http://thegospelcoalition.org/blogs/justintaylor/2010/12/31/bible-reading-plans-3/",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 345,
@@ -2347,9 +2917,15 @@
   {
     "id": 351,
     "path": "s5",
-    "target": "http://www.php.net/manual/en/function.base-convert.php#52450",
+    "target": "https://www.php.net/manual/en/function.base-convert.php#52450",
     "created": "2011-01-12",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "http://www.php.net/manual/en/function.base-convert.php#52450",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 353,
@@ -2408,9 +2984,15 @@
   {
     "id": 360,
     "path": "w/fairy_bread",
-    "target": "http://en.wikipedia.org/wiki/Fairy_bread",
+    "target": "https://en.wikipedia.org/wiki/Fairy_bread",
     "created": "2011-01-26",
-    "clicks": 20
+    "clicks": 20,
+    "history": [
+      {
+        "target": "http://en.wikipedia.org/wiki/Fairy_bread",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 361,
@@ -2453,16 +3035,28 @@
   {
     "id": 366,
     "path": "ef",
-    "target": "https://chrome.google.com/webstore/detail/ipkfnchcgalnafehpglfbommidgmalan",
+    "target": "https://chromewebstore.google.com/detail/empty-title/ipkfnchcgalnafehpglfbommidgmalan",
     "created": "2011-01-28",
-    "clicks": 1
+    "clicks": 1,
+    "history": [
+      {
+        "target": "https://chrome.google.com/webstore/detail/ipkfnchcgalnafehpglfbommidgmalan",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 368,
     "path": "link25",
-    "target": "http://www.joeyday.com/2009/09/07/lds-linker-2-5",
+    "target": "https://joeyday.com/2009/09/07/lds-linker-2-5/",
     "created": "2011-02-01",
-    "clicks": 4
+    "clicks": 4,
+    "history": [
+      {
+        "target": "http://www.joeyday.com/2009/09/07/lds-linker-2-5",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 369,
@@ -2498,9 +3092,15 @@
   {
     "id": 375,
     "path": "w/relational_algebra",
-    "target": "http://en.wikipedia.org/wiki/Relational_algebra",
+    "target": "https://en.wikipedia.org/wiki/Relational_algebra",
     "created": "2011-03-05",
-    "clicks": 20
+    "clicks": 20,
+    "history": [
+      {
+        "target": "http://en.wikipedia.org/wiki/Relational_algebra",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 376,
@@ -2527,9 +3127,15 @@
   {
     "id": 379,
     "path": "62",
-    "target": "http://collider.com/wp-content/uploads/transformers-3-poster-banner-01.jpg",
+    "target": "https://collider.com/wp-content/uploads/transformers-3-poster-banner-01.jpg",
     "created": "2011-04-19",
-    "clicks": 1
+    "clicks": 1,
+    "history": [
+      {
+        "target": "http://collider.com/wp-content/uploads/transformers-3-poster-banner-01.jpg",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 380,
@@ -2565,9 +3171,15 @@
   {
     "id": 384,
     "path": "jq",
-    "target": "http://www.amazon.com/gp/product/B001EQ55ZO/ref=as_li_ss_tl?ie=UTF8&tag=joeyday-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=B001EQ55ZO",
+    "target": "https://www.amazon.com/gp/product/B001EQ55ZO/ref=as_li_ss_tl?ie=UTF8&tag=joeyday-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=B001EQ55ZO",
     "created": "2011-06-20",
-    "clicks": 27
+    "clicks": 27,
+    "history": [
+      {
+        "target": "http://www.amazon.com/gp/product/B001EQ55ZO/ref=as_li_ss_tl?ie=UTF8&tag=joeyday-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=B001EQ55ZO",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 385,
@@ -2655,23 +3267,41 @@
   {
     "id": 396,
     "path": "cat",
-    "target": "http://www.flickr.com/photos/joeyday/5564283270/in/set-72157626237887303",
+    "target": "https://www.flickr.com/photos/joeyday/5564283270/in/set-72157626237887303",
     "created": "2011-07-14",
-    "clicks": 7
+    "clicks": 7,
+    "history": [
+      {
+        "target": "http://www.flickr.com/photos/joeyday/5564283270/in/set-72157626237887303",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 397,
     "path": "guide10kit",
-    "target": "http://www.goalzero.com/shop/p/79/Guide-10-Adventure-Kit/1:1/",
+    "target": "https://goalzero.com/blogs/news/introducing-the-guide-10",
     "created": "2011-07-15",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "http://www.goalzero.com/shop/p/79/Guide-10-Adventure-Kit/1:1/",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 398,
     "path": "nomad7",
-    "target": "http://www.goalzero.com/shop/p/11/Nomad-7-Solar-Panel/3:1/",
+    "target": "https://goalzero.com/products/nomad-7-solar-panel",
     "created": "2011-07-15",
-    "clicks": 3
+    "clicks": 3,
+    "history": [
+      {
+        "target": "http://www.goalzero.com/shop/p/11/Nomad-7-Solar-Panel/3:1/",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 399,
@@ -2692,10 +3322,15 @@
   {
     "id": 401,
     "path": "duracellusb",
-    "target": "http://www.amazon.com/Duracell-Instant-Charger-Lithium-universal/dp/B002FU6KF2/ref=sr_1_1?ie=UTF8&qid=1310746954&sr=8-1",
+    "target": "https://www.amazon.com/Duracell-Instant-Charger-Lithium-universal/dp/B002FU6KF2/ref=sr_1_1?ie=UTF8&qid=1310746954&sr=8-1",
     "created": "2011-07-15",
     "clicks": 2,
-    "broken": true
+    "history": [
+      {
+        "target": "http://www.amazon.com/Duracell-Instant-Charger-Lithium-universal/dp/B002FU6KF2/ref=sr_1_1?ie=UTF8&qid=1310746954&sr=8-1",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 402,
@@ -2736,44 +3371,80 @@
   {
     "id": 407,
     "path": "c3",
-    "target": "http://www.joeyday.com/2011/08/16/my-only-iphone-5-prediction",
+    "target": "https://joeyday.com/2011/08/16/my-only-iphone-5-prediction/",
     "created": "2011-08-16",
-    "clicks": 29
+    "clicks": 29,
+    "history": [
+      {
+        "target": "http://www.joeyday.com/2011/08/16/my-only-iphone-5-prediction",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 408,
     "path": "mh",
-    "target": "http://www.thedailyshow.com/watch/mon-august-15-2011/indecision-2012---corn-polled-edition---ron-paul---the-top-tier",
+    "target": "https://www.cc.com/fan-hub/the-daily-show",
     "created": "2011-08-19",
-    "clicks": 27
+    "clicks": 27,
+    "history": [
+      {
+        "target": "http://www.thedailyshow.com/watch/mon-august-15-2011/indecision-2012---corn-polled-edition---ron-paul---the-top-tier",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 409,
     "path": "cq",
-    "target": "http://rentzsch.tumblr.com/post/9133498042/howto-use-utf-8-throughout-your-web-stack",
+    "target": "https://rentzsch.tumblr.com/post/9133498042/howto-use-utf-8-throughout-your-web-stack",
     "created": "2011-08-19",
-    "clicks": 28
+    "clicks": 28,
+    "history": [
+      {
+        "target": "http://rentzsch.tumblr.com/post/9133498042/howto-use-utf-8-throughout-your-web-stack",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 410,
     "path": "a",
-    "target": "http://www.newegg.com/Product/Product.aspx?Item=N82E16822108077&Tpk=synology ds411 slim",
+    "target": "https://www.newegg.com/synology-ds411slim/p/N82E16822108077?Item=N82E16822108077&Tpk=synology ds411 slim",
     "created": "2011-08-29",
-    "clicks": 21
+    "clicks": 21,
+    "history": [
+      {
+        "target": "http://www.newegg.com/Product/Product.aspx?Item=N82E16822108077&Tpk=synology ds411 slim",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 411,
     "path": "a.",
-    "target": "http://www.newegg.com/Product/Product.aspx?Item=N82E16822108077&Tpk=synology ds411 slim",
+    "target": "https://www.newegg.com/synology-ds411slim/p/N82E16822108077?Item=N82E16822108077&Tpk=synology ds411 slim",
     "created": "2011-08-29",
-    "clicks": 7
+    "clicks": 7,
+    "history": [
+      {
+        "target": "http://www.newegg.com/Product/Product.aspx?Item=N82E16822108077&Tpk=synology ds411 slim",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 412,
     "path": "o",
-    "target": "http://www.cocooninnovations.com/product_info.php?cat_id=&product_id=192",
+    "target": "https://www.cocooninnovations.com/product_info.php?cat_id=&product_id=192",
     "created": "2011-09-15",
-    "clicks": 56
+    "clicks": 56,
+    "history": [
+      {
+        "target": "http://www.cocooninnovations.com/product_info.php?cat_id=&product_id=192",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 413,
@@ -2786,23 +3457,41 @@
   {
     "id": 414,
     "path": "3r",
-    "target": "http://www.joeyday.com/2011/09/19/by-the-grace-of-god-they-were-freely-willing",
+    "target": "https://joeyday.com/2011/09/19/by-the-grace-of-god-they-were-freely-willing/",
     "created": "2011-09-19",
-    "clicks": 18
+    "clicks": 18,
+    "history": [
+      {
+        "target": "http://www.joeyday.com/2011/09/19/by-the-grace-of-god-they-were-freely-willing",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 415,
     "path": "ak",
-    "target": "http://www.joeyday.com/2011/09/21/toast-paint/",
+    "target": "https://joeyday.com/2011/09/21/toast-paint/",
     "created": "2011-09-19",
-    "clicks": 28
+    "clicks": 28,
+    "history": [
+      {
+        "target": "http://www.joeyday.com/2011/09/21/toast-paint/",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 416,
     "path": "mw",
-    "target": "http://pilotmoon.com/scrollreverser/",
+    "target": "https://pilotmoon.com/scrollreverser/",
     "created": "2011-09-21",
-    "clicks": 25
+    "clicks": 25,
+    "history": [
+      {
+        "target": "http://pilotmoon.com/scrollreverser/",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 417,
@@ -2814,9 +3503,15 @@
   {
     "id": 418,
     "path": "4n",
-    "target": "http://www.cdw.com/shop/products/Logitech-ClearChat-Comfort-USB-headset/1304366.aspx",
+    "target": "https://www.cdw.com/product/logitech-h390-binaural-wired-headset-usb-a-noise-canceling-mic-black/1304366",
     "created": "2011-09-29",
-    "clicks": 3
+    "clicks": 3,
+    "history": [
+      {
+        "target": "http://www.cdw.com/shop/products/Logitech-ClearChat-Comfort-USB-headset/1304366.aspx",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 419,
@@ -2828,16 +3523,28 @@
   {
     "id": 420,
     "path": "is",
-    "target": "http://www.flickr.com/photos/joeyday/6263310413/in/photostream/lightbox/",
+    "target": "https://www.flickr.com/photos/joeyday/6263310413/in/photostream/lightbox/",
     "created": "2011-10-20",
-    "clicks": 19
+    "clicks": 19,
+    "history": [
+      {
+        "target": "http://www.flickr.com/photos/joeyday/6263310413/in/photostream/lightbox/",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 421,
     "path": "6",
-    "target": "http://www.flickr.com/photos/joeyday/6263317649/in/photostream/lightbox/",
+    "target": "https://www.flickr.com/photos/joeyday/6263317649/in/photostream/lightbox/",
     "created": "2011-10-20",
-    "clicks": 19
+    "clicks": 19,
+    "history": [
+      {
+        "target": "http://www.flickr.com/photos/joeyday/6263317649/in/photostream/lightbox/",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 422,
@@ -2849,9 +3556,15 @@
   {
     "id": 423,
     "path": "b",
-    "target": "http://www.dropbox.com/gallery/1977451/1/webdrive-caps?h=a9fb3d",
+    "target": "https://www.dropbox.com/features/cloud-storage/photos",
     "created": "2011-11-02",
-    "clicks": 1
+    "clicks": 1,
+    "history": [
+      {
+        "target": "http://www.dropbox.com/gallery/1977451/1/webdrive-caps?h=a9fb3d",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 424,
@@ -2904,9 +3617,15 @@
   {
     "id": 456,
     "path": "virus2012",
-    "target": "http://www.bleepingcomputer.com/virus-removal/remove-win-7-internet-security-2012",
+    "target": "https://www.bleepingcomputer.com/virus-removal/remove-win-7-internet-security-2012",
     "created": "2011-12-23",
-    "clicks": 1
+    "clicks": 1,
+    "history": [
+      {
+        "target": "http://www.bleepingcomputer.com/virus-removal/remove-win-7-internet-security-2012",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 460,
@@ -2927,9 +3646,15 @@
   {
     "id": 462,
     "path": "gb",
-    "target": "http://www.imdb.com/title/tt1731141",
+    "target": "https://www.imdb.com/title/tt1731141",
     "created": "2012-01-15",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "http://www.imdb.com/title/tt1731141",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 463,
@@ -2994,23 +3719,41 @@
   {
     "id": 471,
     "path": "mr",
-    "target": "http://www.bleepingcomputer.com/virus-removal/remove-security-shield",
+    "target": "https://www.bleepingcomputer.com/virus-removal/remove-security-shield",
     "created": "2012-03-19",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "http://www.bleepingcomputer.com/virus-removal/remove-security-shield",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 472,
     "path": "nz",
-    "target": "http://vimeo.com/39280776",
+    "target": "https://vimeo.com/39280776",
     "created": "2012-03-27",
-    "clicks": 2
+    "clicks": 2,
+    "history": [
+      {
+        "target": "http://vimeo.com/39280776",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 473,
     "path": "xk",
-    "target": "http://www.joeyday.com/2012/04/08/on-consistency-between-biblical-authors/",
+    "target": "https://joeyday.com/2012/04/08/on-consistency-between-biblical-authors/",
     "created": "2012-04-08",
-    "clicks": 26
+    "clicks": 26,
+    "history": [
+      {
+        "target": "http://www.joeyday.com/2012/04/08/on-consistency-between-biblical-authors/",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 474,
@@ -3055,7 +3798,8 @@
     "path": "q8",
     "target": "http://answers.yahoo.com/question/index?qid=20091105124514AACBZ1T",
     "created": "2012-05-06",
-    "clicks": 46
+    "clicks": 46,
+    "broken": true
   },
   {
     "id": 480,
@@ -3075,9 +3819,15 @@
   {
     "id": 483,
     "path": "mtd",
-    "target": "http://en.wikipedia.org/wiki/Moralistic_therapeutic_deism",
+    "target": "https://en.wikipedia.org/wiki/Moralistic_therapeutic_deism",
     "created": "2012-05-21",
-    "clicks": 4
+    "clicks": 4,
+    "history": [
+      {
+        "target": "http://en.wikipedia.org/wiki/Moralistic_therapeutic_deism",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 485,
@@ -3156,9 +3906,15 @@
   {
     "id": 495,
     "path": "wallet",
-    "target": "http://us.bellroy.com/products/note-sleeve-wallet",
+    "target": "https://bellroy.com/products/note-sleeve-wallet",
     "created": "2012-09-12",
-    "clicks": 3
+    "clicks": 3,
+    "history": [
+      {
+        "target": "http://us.bellroy.com/products/note-sleeve-wallet",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 496,
@@ -3228,37 +3984,67 @@
   {
     "id": 505,
     "path": "gm",
-    "target": "http://www.youtube.com/watch?v=AiCFtmdrvHM",
+    "target": "https://www.youtube.com/watch?v=AiCFtmdrvHM",
     "created": "2013-02-22",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "http://www.youtube.com/watch?v=AiCFtmdrvHM",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 506,
     "path": "c1",
-    "target": "http://www.youtube.com/watch?v=hyGJBV1xnJI",
+    "target": "https://www.youtube.com/watch?v=hyGJBV1xnJI",
     "created": "2013-02-22",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "http://www.youtube.com/watch?v=hyGJBV1xnJI",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 507,
     "path": "am",
-    "target": "http://www.youtube.com/watch?v=3CR5y8qZf0Y",
+    "target": "https://www.youtube.com/watch?v=3CR5y8qZf0Y",
     "created": "2013-02-22",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "http://www.youtube.com/watch?v=3CR5y8qZf0Y",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 508,
     "path": "op",
-    "target": "http://www.youtube.com/watch?v=ML4woERjvlk",
+    "target": "https://www.youtube.com/watch?v=ML4woERjvlk",
     "created": "2013-02-22",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "http://www.youtube.com/watch?v=ML4woERjvlk",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 509,
     "path": "ob",
-    "target": "http://www.youtube.com/watch?v=pp89tTDxXuI",
+    "target": "https://www.youtube.com/watch?v=pp89tTDxXuI",
     "created": "2013-02-22",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "http://www.youtube.com/watch?v=pp89tTDxXuI",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 510,
@@ -3285,9 +4071,15 @@
   {
     "id": 513,
     "path": "80",
-    "target": "http://www.ifixit.com/Teardown/Orange Teardown/13470",
+    "target": "https://www.ifixit.com/Teardown/Orange+Teardown/13470",
     "created": "2013-04-01",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "http://www.ifixit.com/Teardown/Orange Teardown/13470",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 514,
@@ -3300,9 +4092,15 @@
   {
     "id": 515,
     "path": "ut",
-    "target": "http://xkcd.com/1193/",
+    "target": "https://xkcd.com/1193/",
     "created": "2013-04-01",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "http://xkcd.com/1193/",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 516,
@@ -3322,16 +4120,28 @@
   {
     "id": 518,
     "path": "2s",
-    "target": "http://en.wikipedia.org/wiki/Novikov_self-consistency_principle",
+    "target": "https://en.wikipedia.org/wiki/Novikov_self-consistency_principle",
     "created": "2013-04-12",
-    "clicks": 21
+    "clicks": 21,
+    "history": [
+      {
+        "target": "http://en.wikipedia.org/wiki/Novikov_self-consistency_principle",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 519,
     "path": "5n",
-    "target": "http://about.esvbible.org/toolbox/esv-crossref",
+    "target": "https://www.esv.org/resources/esv-crossreference-tool/",
     "created": "2013-04-23",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "http://about.esvbible.org/toolbox/esv-crossref",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 520,
@@ -3343,9 +4153,15 @@
   {
     "id": 521,
     "path": "eggs",
-    "target": "http://jday.us/random/eggs",
+    "target": "http://jday.us/random/eggs/",
     "created": "2013-07-23",
-    "clicks": 11
+    "clicks": 11,
+    "history": [
+      {
+        "target": "http://jday.us/random/eggs",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 524,
@@ -3373,9 +4189,15 @@
   {
     "id": 527,
     "path": "5z",
-    "target": "http://evangelicalarminians.org/the-almost-completely-unknown-difference-that-makes-all-the-difference/",
+    "target": "https://evangelicalarminians.org/the-almost-completely-unknown-difference-that-makes-all-the-difference/",
     "created": "2014-01-23",
-    "clicks": 2
+    "clicks": 2,
+    "history": [
+      {
+        "target": "http://evangelicalarminians.org/the-almost-completely-unknown-difference-that-makes-all-the-difference/",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 528,
@@ -3456,58 +4278,106 @@
   {
     "id": 543,
     "path": "l",
-    "target": "http://www.theramenrater.com/2012/04/22/715-indomie-mi-goreng-rendang-indonesian-import/",
+    "target": "https://www.theramenrater.com/2012/04/22/715-indomie-mi-goreng-rendang-indonesian-import/",
     "created": "2015-03-20",
-    "clicks": 30
+    "clicks": 30,
+    "history": [
+      {
+        "target": "http://www.theramenrater.com/2012/04/22/715-indomie-mi-goreng-rendang-indonesian-import/",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 544,
     "path": "mv",
-    "target": "http://www.theramenrater.com/2011/12/09/re-review-indomie-special-chicken-flavour-instant-noodles/",
+    "target": "https://www.theramenrater.com/2011/12/09/re-review-indomie-special-chicken-flavour-instant-noodles/",
     "created": "2015-03-23",
-    "clicks": 35
+    "clicks": 35,
+    "history": [
+      {
+        "target": "http://www.theramenrater.com/2011/12/09/re-review-indomie-special-chicken-flavour-instant-noodles/",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 545,
     "path": "sl",
-    "target": "http://www.theramenrater.com/2013/11/25/1235-nissin-demae-ramen-miso-tonkotsu-artificial-pork-flavor-ramen-noodle/",
+    "target": "https://www.theramenrater.com/2013/11/25/1235-nissin-demae-ramen-miso-tonkotsu-artificial-pork-flavor-ramen-noodle/",
     "created": "2015-03-25",
-    "clicks": 26
+    "clicks": 26,
+    "history": [
+      {
+        "target": "http://www.theramenrater.com/2013/11/25/1235-nissin-demae-ramen-miso-tonkotsu-artificial-pork-flavor-ramen-noodle/",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 546,
     "path": "mu",
-    "target": "http://www.theramenrater.com/2012/04/06/702-meet-the-manufacturer-nissin-demae-ramen-black-garlic-oil-tonkotsu-flavour-instant-noodle/",
+    "target": "https://www.theramenrater.com/2012/04/06/702-meet-the-manufacturer-nissin-demae-ramen-black-garlic-oil-tonkotsu-flavour-instant-noodle/",
     "created": "2015-03-26",
-    "clicks": 36
+    "clicks": 36,
+    "history": [
+      {
+        "target": "http://www.theramenrater.com/2012/04/06/702-meet-the-manufacturer-nissin-demae-ramen-black-garlic-oil-tonkotsu-flavour-instant-noodle/",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 547,
     "path": "eb",
-    "target": "http://www.theramenrater.com/2014/02/06/1304-nissin-demae-ramen-shoyu-tonkotsu-artificial-pork-flavor/",
+    "target": "https://www.theramenrater.com/2014/02/06/1304-nissin-demae-ramen-shoyu-tonkotsu-artificial-pork-flavor/",
     "created": "2015-03-30",
-    "clicks": 37
+    "clicks": 37,
+    "history": [
+      {
+        "target": "http://www.theramenrater.com/2014/02/06/1304-nissin-demae-ramen-shoyu-tonkotsu-artificial-pork-flavor/",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 548,
     "path": "1j",
-    "target": "http://www.theramenrater.com/2011/04/04/341-vina-acecook-daily-vegetarian-flavour-instant-noodles/",
+    "target": "https://www.theramenrater.com/2011/04/04/341-vina-acecook-daily-vegetarian-flavour-instant-noodles/",
     "created": "2015-04-02",
-    "clicks": 29
+    "clicks": 29,
+    "history": [
+      {
+        "target": "http://www.theramenrater.com/2011/04/04/341-vina-acecook-daily-vegetarian-flavour-instant-noodles/",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 549,
     "path": "j8",
-    "target": "http://www.theramenrater.com/2010/07/28/nissin-demae-ramen-sesame-flavor/",
+    "target": "https://www.theramenrater.com/2010/07/28/nissin-demae-ramen-sesame-flavor/",
     "created": "2015-04-14",
-    "clicks": 38
+    "clicks": 38,
+    "history": [
+      {
+        "target": "http://www.theramenrater.com/2010/07/28/nissin-demae-ramen-sesame-flavor/",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 550,
     "path": "b9",
-    "target": "http://www.theramenrater.com/2010/07/13/nissin-demae-ramen-five-spices-artificial-beef-flavor/",
+    "target": "https://www.theramenrater.com/2010/07/13/nissin-demae-ramen-five-spices-artificial-beef-flavor/",
     "created": "2015-06-22",
-    "clicks": 34
+    "clicks": 34,
+    "history": [
+      {
+        "target": "http://www.theramenrater.com/2010/07/13/nissin-demae-ramen-five-spices-artificial-beef-flavor/",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 551,
@@ -3535,23 +4405,41 @@
   {
     "id": 554,
     "path": "mk",
-    "target": "http://joeyday.com/2015/10/05/sending-off-pastor-tim/",
+    "target": "https://joeyday.com/2015/10/05/sending-off-pastor-tim/",
     "created": "2015-10-06",
-    "clicks": 24
+    "clicks": 24,
+    "history": [
+      {
+        "target": "http://joeyday.com/2015/10/05/sending-off-pastor-tim/",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 555,
     "path": "f4",
-    "target": "http://inters.org/galilei-madame-christina-Lorraine",
+    "target": "https://inters.org/galilei-madame-christina-Lorraine",
     "created": "2015-11-12",
-    "clicks": 28
+    "clicks": 28,
+    "history": [
+      {
+        "target": "http://inters.org/galilei-madame-christina-Lorraine",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 556,
     "path": "2u",
-    "target": "https://docs.google.com/forms/d/1WxM6RHSptD-MqXCdoMwbIeD49PmDCQ5Y3XCkBZ7XUfs/viewform",
+    "target": "https://docs.google.com/forms/d/e/1FAIpQLSfz5vXJ38QqSW_21AnpxBHcanzyUY3QTo4WVQya4N6SIZd3TQ/viewform",
     "created": "2016-02-17",
-    "clicks": 12
+    "clicks": 12,
+    "history": [
+      {
+        "target": "https://docs.google.com/forms/d/1WxM6RHSptD-MqXCdoMwbIeD49PmDCQ5Y3XCkBZ7XUfs/viewform",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 557,
@@ -3605,23 +4493,41 @@
   {
     "id": 564,
     "path": "p8",
-    "target": "https://itunes.apple.com/us/app/the-witness/id1230231705?mt=8 https://itunes.apple.com/us/app/the-witness/id1230231705?mt=8",
+    "target": "https://apps.apple.com/us/app/the-witness/id1230231705",
     "created": "2017-09-22",
-    "clicks": 19
+    "clicks": 19,
+    "history": [
+      {
+        "target": "https://itunes.apple.com/us/app/the-witness/id1230231705?mt=8 https://itunes.apple.com/us/app/the-witness/id1230231705?mt=8",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 565,
     "path": "mi",
-    "target": "https://community.servicenow.com/community?id=community_blog&sys_id=c23eae6ddbd0dbc01dcaf3231f961951",
+    "target": "https://www.servicenow.com/community/developer-blog/mandatory-field-enforcement-on-dot-walked-fields/ba-p/2286951",
     "created": "2018-12-03",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "https://community.servicenow.com/community?id=community_blog&sys_id=c23eae6ddbd0dbc01dcaf3231f961951",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 566,
     "path": "n3",
-    "target": "https://community.servicenow.com/community?id=community_blog&sys_id=c23eae6ddbd0dbc01dcaf3231f961951",
+    "target": "https://www.servicenow.com/community/developer-blog/mandatory-field-enforcement-on-dot-walked-fields/ba-p/2286951",
     "created": "2018-12-03",
-    "clicks": 2
+    "clicks": 2,
+    "history": [
+      {
+        "target": "https://community.servicenow.com/community?id=community_blog&sys_id=c23eae6ddbd0dbc01dcaf3231f961951",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 567,
@@ -3654,9 +4560,15 @@
   {
     "id": 571,
     "path": "1g",
-    "target": "http://mb-soft.com/believe/text/denomina.htm",
+    "target": "https://permate.com/affiliate-network/",
     "created": "2019-06-05",
-    "clicks": 1
+    "clicks": 1,
+    "history": [
+      {
+        "target": "http://mb-soft.com/believe/text/denomina.htm",
+        "replaced": "2026-10-07"
+      }
+    ]
   },
   {
     "id": 572,
