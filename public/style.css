@@ -89,6 +89,11 @@ a.button {
     margin-block: var(--space);
     }
 
+/* Single-column pages (redirect warnings, 404) get a wider column, about 600px at the default size. */
+.page.wide {
+    --column-width: 27rem;
+    }
+
 .column {
     padding: var(--space);
     }

@@ -41,7 +41,7 @@ const shell = (title, body, head = '') => `<!DOCTYPE html>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 ${head}</head>
 <body>
-<section class="page">
+<section class="page wide">
 <section class="column">
 ${body}
 </section>
