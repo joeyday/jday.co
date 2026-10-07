@@ -12,21 +12,73 @@
 <body>
 <section class="page wide">
 <section class="column">
-<h1>Add a link</h1>
+<h1>Admin</h1>
+<p><label>GitHub token<br><input id="token" type="password" autocomplete="off"></label></p>
+<p class="target">The token is only held in this page’s memory. It’s never stored, and it’s gone when you close or reload the page. Use a fine-grained token limited to this repository with Contents read &amp; write.</p>
+<p id="status" role="status"></p>
+
+<h2>Edit or review a link</h2>
+<form id="load-form" autocomplete="off">
+<p><label>Short path<br><input id="edit-path" type="text" autocapitalize="off" spellcheck="false" placeholder="e.g. wishlist/joey"></label></p>
+<p><button class="button" type="submit">Load</button> <button class="button" type="button" id="review-list">Show links needing review</button></p>
+</form>
+<ul id="review-items"></ul>
+<form id="edit-form" autocomplete="off" hidden>
+<p>Editing <strong id="edit-title"></strong></p>
+<p id="edit-flags"></p>
+<p><label>Target URL<br><input id="edit-target" type="url" required></label></p>
+<p id="edit-history-label" hidden>Used to point to:</p>
+<ul id="edit-history"></ul>
+<p><button class="button" type="submit">Save new target</button> <button class="button" type="button" id="approve" hidden>Approve current target</button></p>
+</form>
+
+<h2>Add a link</h2>
 <form id="form" autocomplete="off">
-<p><label>GitHub token<br><input id="token" type="password" autocomplete="off" required></label></p>
 <p><label>Short path (leave blank to auto-assign)<br><input id="path" type="text" autocapitalize="off" spellcheck="false" placeholder="e.g. wishlist/joey"></label></p>
 <p><button class="button" type="button" id="suggest">Suggest a short path</button></p>
 <p><label>Target URL<br><input id="target" type="url" placeholder="https://…" required></label></p>
 <p><button class="button" type="submit">Add link</button></p>
 </form>
-<p id="status" role="status"></p>
-<p class="target">The token is only held in this page’s memory. It’s never stored, and it’s gone when you close or reload the page. Use a fine-grained token limited to this repository with Contents read &amp; write.</p>
 </section>
 </section>
 <script>
 const REPO = 'joeyday/jday.co';
 const API = `https://api.github.com/repos/${REPO}/contents/links.json`;
+
+function validTarget(raw) {
+  const target = raw.trim();
+  let url;
+  try { url = new URL(target); } catch { throw new Error('That target isn’t a valid URL.'); }
+  if (!/^https?:$/.test(url.protocol)) throw new Error('The target must be http or https.');
+  return target;
+}
+
+const findLink = (links, path) => links.find((l) => l.path.toLowerCase() === path.trim().replace(/^\/+|\/+$/g, '').toLowerCase());
+// Same condition the build uses for the "this link was redirected" warning page.
+const needsReview = (l) => !l.broken && l.history?.length && !l.approved;
+
+// Changing a target works like a checker update: the old one goes on the front of `history`. Since
+// the change is deliberate it's approved right away, and the stale `broken` flag is dropped (the
+// weekly check will re-flag it if the new target is dead too).
+function retarget(links, path, rawTarget, today) {
+  const link = findLink(links, path);
+  if (!link) throw new Error(`No link at jday.co/${path}.`);
+  const target = validTarget(rawTarget);
+  if (target === link.target) throw new Error('The target didn’t change.');
+  link.history = [{ target: link.target, replaced: today }, ...(link.history ?? [])];
+  link.target = target;
+  link.approved = true;
+  delete link.broken;
+  return link;
+}
+
+function approve(links, path) {
+  const link = findLink(links, path);
+  if (!link) throw new Error(`No link at jday.co/${path}.`);
+  if (!needsReview(link)) throw new Error('That link doesn’t need approval.');
+  link.approved = true;
+  return link;
+}
 
 // Returns the new link entry, or throws a message-bearing Error. Mirrors the checks in scripts/build.mjs.
 function newLink(links, rawPath, rawTarget, today) {
@@ -37,10 +89,7 @@ function newLink(links, rawPath, rawTarget, today) {
   if (/[?#\s]/.test(path)) throw new Error('Paths can’t contain spaces, ? or #.');
   if (segments.some((s) => s.toLowerCase() === 'info')) throw new Error('“info” is reserved.');
   if (segments[0].toLowerCase() === 'admin') throw new Error('“admin” is reserved.');
-  const target = rawTarget.trim();
-  let url;
-  try { url = new URL(target); } catch { throw new Error('That target isn’t a valid URL.'); }
-  if (!/^https?:$/.test(url.protocol)) throw new Error('The target must be http or https.');
+  const target = validTarget(rawTarget);
   if (links.some((l) => l.path.toLowerCase() === path.toLowerCase())) throw new Error(`jday.co/${path} already exists.`);
   return { id: Math.max(0, ...links.map((l) => l.id)) + 1, path, target, created: today, clicks: 0 };
 }
@@ -106,45 +155,127 @@ async function loadLinks(token) {
 
 const $ = (id) => document.getElementById(id);
 const say = (msg) => { $('status').textContent = msg; };
+const localToday = () => {
+  const now = new Date();
+  return `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
+};
+const token = () => {
+  const t = $('token').value.trim();
+  if (!t) throw new Error('Enter the token first.');
+  return t;
+};
 
-$('suggest').addEventListener('click', async () => {
-  const token = $('token').value.trim();
-  if (!token) return say('Enter the token first; it’s needed to see which paths are taken.');
-  try {
-    say('Looking…');
-    $('path').value = pickCode((await loadLinks(token)).links);
-    say('Suggested a path. Edit it if you like, or press the button again for another.');
-  } catch (err) {
-    say(err.message);
-  }
-});
+// Loads links.json, applies `change` to it, and commits the result. Everything is re-read first, so
+// an edit never overwrites a newer version; GitHub rejects a stale write with a 409.
+async function commit(message, change) {
+  const { file, links } = await loadLinks(token());
+  const result = change(links);
+  await github(token(), {
+    method: 'PUT',
+    body: JSON.stringify({ message: typeof message === 'function' ? message(result) : message, content: bytesToBase64(JSON.stringify(links, null, 2) + '\n'), sha: file.sha }),
+  });
+  return result;
+}
 
-$('form').addEventListener('submit', async (e) => {
-  e.preventDefault();
-  const token = $('token').value.trim();
-  const button = e.target.querySelector('button');
-  button.disabled = true;
-  try {
-    say('Checking…');
-    const { file, links } = await loadLinks(token);
-    const now = new Date();
-    const today = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
-    const link = newLink(links, $('path').value.trim() || pickCode(links), $('target').value, today);
-    links.push(link);
-    say('Saving…');
-    await github(token, {
-      method: 'PUT',
-      body: JSON.stringify({ message: `Add link ${link.path}`, content: bytesToBase64(JSON.stringify(links, null, 2) + '\n'), sha: file.sha }),
-    });
-    say(`Added jday.co/${link.path}. It will be live in a minute or two, once the site redeploys.`);
-    $('path').value = '';
-    $('target').value = '';
-  } catch (err) {
-    say(err.message);
-  } finally {
-    button.disabled = false;
-  }
-});
+// Run an async handler with the form's buttons disabled and any error shown in the status line.
+const guarded = (handler) => async (e) => {
+  e?.preventDefault();
+  const buttons = [...document.querySelectorAll('button')];
+  buttons.forEach((b) => { b.disabled = true; });
+  try { await handler(e); } catch (err) { say(err.message); } finally { buttons.forEach((b) => { b.disabled = false; }); }
+};
+
+// ---- Edit / review
+let editing = null; // path of the loaded link
+
+function showLink(link) {
+  editing = link.path;
+  $('edit-form').hidden = false;
+  $('edit-title').textContent = `jday.co/${link.path}`;
+  $('edit-path').value = link.path;
+  $('edit-target').value = link.target;
+  const flags = [];
+  if (link.broken) flags.push('Flagged broken by the link checker.');
+  if (needsReview(link)) flags.push('Updated by the link checker and not yet approved: visitors see a warning page.');
+  $('edit-flags').textContent = flags.join(' ');
+  $('approve').hidden = !needsReview(link);
+  const list = $('edit-history');
+  list.replaceChildren(...(link.history ?? []).map((h) => {
+    const li = document.createElement('li');
+    li.className = 'target';
+    li.textContent = `${h.target} (until ${h.replaced})`;
+    return li;
+  }));
+  $('edit-history-label').hidden = !link.history?.length;
+}
+
+async function load(path) {
+  const { links } = await loadLinks(token());
+  const link = findLink(links, path);
+  if (!link) throw new Error(`No link at jday.co/${path.trim()}.`);
+  showLink(link);
+  say('');
+}
+
+$('load-form').addEventListener('submit', guarded(() => load($('edit-path').value)));
+
+$('review-list').addEventListener('click', guarded(async () => {
+  const { links } = await loadLinks(token());
+  const pending = links.filter(needsReview).sort((a, b) => a.path.localeCompare(b.path));
+  $('review-items').replaceChildren(...pending.map((l) => {
+    const li = document.createElement('li');
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'button';
+    button.textContent = l.path;
+    button.addEventListener('click', guarded(() => load(l.path)));
+    li.append(button);
+    return li;
+  }));
+  say(pending.length ? `${pending.length} link${pending.length === 1 ? '' : 's'} need review.` : 'Nothing needs review.');
+}));
+
+$('edit-form').addEventListener('submit', guarded(async () => {
+  say('Saving…');
+  const path = editing;
+  const link = await commit(`Retarget ${path}`, (links) => retarget(links, path, $('edit-target').value, localToday()));
+  showLink(link);
+  say(`Updated jday.co/${path}. It will be live in a minute or two, once the site redeploys.`);
+}));
+
+$('approve').addEventListener('click', guarded(async () => {
+  say('Saving…');
+  const path = editing;
+  const link = await commit(`Approve ${path}`, (links) => approve(links, path));
+  showLink(link);
+  say(`Approved jday.co/${path}. It will redirect straight through once the site redeploys.`);
+}));
+
+// ---- Add
+$('suggest').addEventListener('click', guarded(async () => {
+  say('Looking…');
+  $('path').value = pickCode((await loadLinks(token())).links);
+  say('Suggested a path. Edit it if you like, or press the button again for another.');
+}));
+
+$('form').addEventListener('submit', guarded(async () => {
+  say('Saving…');
+  const link = await commit((added) => `Add link ${added.path}`, (links) => {
+    const added = newLink(links, $('path').value.trim() || pickCode(links), $('target').value, localToday());
+    links.push(added);
+    return added;
+  });
+  say(`Added jday.co/${link.path}. It will be live in a minute or two, once the site redeploys.`);
+  $('path').value = '';
+  $('target').value = '';
+}));
+
+// Arriving from a link's info page (/admin/?path=…): prefill the path, then it just needs the token.
+const requested = new URLSearchParams(location.search).get('path');
+if (requested) {
+  $('edit-path').value = requested;
+  say('Enter the token, then press Load to edit jday.co/' + requested + '.');
+}
 </script>
 </body>
 </html>

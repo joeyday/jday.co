@@ -48,6 +48,14 @@ h1 {
     text-wrap: balance;
     }
 
+h2 {
+    font-family: "cubano", sans-serif;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: var(--heading);
+    margin-block: 1.5lh 0.5lh;
+    }
+
 p {
     text-wrap: pretty;
     }

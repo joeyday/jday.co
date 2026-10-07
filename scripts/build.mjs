@@ -79,7 +79,8 @@ ${history.map((h) => `<li><span class="target">${esc(clean(h.target))}</span> (u
 <p>Points to:</p>
 <p class="target">${esc(t)}</p>
 ${status}<p>Created ${esc(created ?? 'unknown')}${clicks != null ? ` · ${clicks} clicks` : ''}</p>
-${past}<p><a class="button" href="${esc(t)}" rel="nofollow">Take me there</a></p>`);
+${past}<p><a class="button" href="${esc(t)}" rel="nofollow">Take me there</a></p>
+<p class="target"><a href="/admin/?path=${encodeURIComponent(path)}">Edit</a></p>`);
 };
 
 const notFoundPage = () => shell('404 Not Found', `<h1>404</h1>
