@@ -273,9 +273,15 @@
   {
     "id": 31,
     "path": "flashforward",
-    "target": "http://www.hrwiki.org/index.php/Flashforward_2006_Seattle_-_28_Feb_2006#The_Homestar_Runner_Wiki",
+    "target": "http://www.hrwiki.org/wiki/Flashforward_2006_Seattle_-_28_Feb_2006#The_Homestar_Runner_Wiki",
     "created": "2009-03-16",
-    "clicks": 7
+    "clicks": 7,
+    "history": [
+      {
+        "target": "http://www.hrwiki.org/index.php/Flashforward_2006_Seattle_-_28_Feb_2006#The_Homestar_Runner_Wiki",
+        "replaced": "2026-10-12"
+      }
+    ]
   },
   {
     "id": 32,
@@ -3413,7 +3419,8 @@
         "replaced": "2026-10-07"
       }
     ],
-    "approved": true
+    "approved": true,
+    "broken": true
   },
   {
     "id": 402,
