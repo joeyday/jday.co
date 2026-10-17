@@ -4750,5 +4750,12 @@
     "target": "https://utahcubing.org",
     "created": "2026-10-05",
     "clicks": 0
+  },
+  {
+    "id": 578,
+    "path": "goals",
+    "target": "https://joeyday.github.io/wca-goals",
+    "created": "2026-10-17",
+    "clicks": 0
   }
 ]
