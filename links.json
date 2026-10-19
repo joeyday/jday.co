@@ -636,9 +636,15 @@
   {
     "id": 133,
     "path": "ldpatch",
-    "target": "http://community.landesk.com/downloads/patch/LD-Spyware-20722-882-Client_V2.zip",
+    "target": "https://hub.ivanti.com/s/?language=en_US",
     "created": "2009-05-11",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "http://community.landesk.com/downloads/patch/LD-Spyware-20722-882-Client_V2.zip",
+        "replaced": "2026-10-19"
+      }
+    ]
   },
   {
     "id": 134,
@@ -689,9 +695,16 @@
   {
     "id": 76,
     "path": "4hv",
-    "target": "http://en.wikipedia.org/wiki/Unagi",
+    "target": "https://en.wikipedia.org/wiki/Unagi",
     "created": "2009-03-17",
-    "clicks": 9
+    "clicks": 9,
+    "history": [
+      {
+        "target": "http://en.wikipedia.org/wiki/Unagi",
+        "replaced": "2026-10-19"
+      }
+    ],
+    "approved": true
   },
   {
     "id": 77,
@@ -719,16 +732,30 @@
   {
     "id": 80,
     "path": "uu",
-    "target": "http://get-shorty.com/",
+    "target": "https://get-shorty.com/",
     "created": "2009-03-17",
-    "clicks": 54
+    "clicks": 54,
+    "history": [
+      {
+        "target": "http://get-shorty.com/",
+        "replaced": "2026-10-19"
+      }
+    ],
+    "approved": true
   },
   {
     "id": 86,
     "path": "vo",
-    "target": "http://en.wikipedia.org/wiki/Falafel",
+    "target": "https://en.wikipedia.org/wiki/Falafel",
     "created": "2009-03-19",
-    "clicks": 32
+    "clicks": 32,
+    "history": [
+      {
+        "target": "http://en.wikipedia.org/wiki/Falafel",
+        "replaced": "2026-10-19"
+      }
+    ],
+    "approved": true
   },
   {
     "id": 87,
@@ -2287,9 +2314,16 @@
   {
     "id": 272,
     "path": "d0",
-    "target": "http://wiki.xmpp.org/web/Jabber_Resources",
+    "target": "https://wiki.xmpp.org/web/Jabber_Resources",
     "created": "2010-03-24",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "http://wiki.xmpp.org/web/Jabber_Resources",
+        "replaced": "2026-10-19"
+      }
+    ],
+    "approved": true
   },
   {
     "id": 273,
@@ -3442,7 +3476,8 @@
     "path": "sony",
     "target": "http://www.docs.sony.com/release/CDXS2010.pdf",
     "created": "2011-07-27",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 405,
@@ -4754,8 +4789,15 @@
   {
     "id": 578,
     "path": "goals",
-    "target": "https://joeyday.github.io/wca-goals",
+    "target": "https://joeyday.github.io/wca-goals/",
     "created": "2026-10-17",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "https://joeyday.github.io/wca-goals",
+        "replaced": "2026-10-19"
+      }
+    ],
+    "approved": true
   }
 ]
