@@ -1751,7 +1751,8 @@
     "path": "gowalla",
     "target": "http://gowalla.com/users/joeyday",
     "created": "2009-10-28",
-    "clicks": 49
+    "clicks": 49,
+    "broken": true
   },
   {
     "id": 215,
@@ -2139,24 +2140,21 @@
     "path": "foamee",
     "target": "http://foamee.com/people/joeyday",
     "created": "2010-03-15",
-    "clicks": 3,
-    "broken": true
+    "clicks": 3
   },
   {
     "id": 258,
     "path": "ioubeer",
     "target": "http://foamee.com/people/joeyday",
     "created": "2010-03-15",
-    "clicks": 0,
-    "broken": true
+    "clicks": 0
   },
   {
     "id": 259,
     "path": "ioucoffee",
     "target": "http://foamee.com/people/joeyday",
     "created": "2010-03-15",
-    "clicks": 0,
-    "broken": true
+    "clicks": 0
   },
   {
     "id": 260,
