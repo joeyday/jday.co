@@ -4568,9 +4568,16 @@
   {
     "id": 553,
     "path": "worry",
-    "target": "http://papers.jday.co/view/worry",
+    "target": "https://papers.jday.co/view/worry/",
     "created": "2015-09-13",
-    "clicks": 3
+    "clicks": 3,
+    "history": [
+      {
+        "target": "http://papers.jday.co/view/worry",
+        "replaced": "2026-11-02"
+      }
+    ],
+    "approved": true
   },
   {
     "id": 554,
