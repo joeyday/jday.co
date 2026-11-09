@@ -2024,9 +2024,15 @@
   {
     "id": 244,
     "path": "gg",
-    "target": "http://gmailblog.blogspot.com/2009/05/import-your-mail-and-contacts-from.html",
+    "target": "https://gmail.googleblog.com/2009/05/import-your-mail-and-contacts-from.html",
     "created": "2010-02-11",
-    "clicks": 4
+    "clicks": 4,
+    "history": [
+      {
+        "target": "http://gmailblog.blogspot.com/2009/05/import-your-mail-and-contacts-from.html",
+        "replaced": "2026-11-09"
+      }
+    ]
   },
   {
     "id": 245,
@@ -2140,21 +2146,24 @@
     "path": "foamee",
     "target": "http://foamee.com/people/joeyday",
     "created": "2010-03-15",
-    "clicks": 3
+    "clicks": 3,
+    "broken": true
   },
   {
     "id": 258,
     "path": "ioubeer",
     "target": "http://foamee.com/people/joeyday",
     "created": "2010-03-15",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 259,
     "path": "ioucoffee",
     "target": "http://foamee.com/people/joeyday",
     "created": "2010-03-15",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 260,
@@ -3093,7 +3102,8 @@
     "path": "4t",
     "target": "http://www.carylmatrisciana.com/site/index.php?view=article&catid=39:calvinism&id=67:brendas-testimony-her-14-years-in-calvinism&tmpl=component&print=1&layout=default&page=&option=com_content&Itemid=58",
     "created": "2011-01-26",
-    "clicks": 5
+    "clicks": 5,
+    "broken": true
   },
   {
     "id": 360,
@@ -3114,14 +3124,16 @@
     "path": "brendas_testimony",
     "target": "http://www.carylmatrisciana.com/site/index.php?option=com_content&view=article&id=67:brendas-testimony-her-14-years-in-calvinism&catid=39&Itemid=58",
     "created": "2011-01-26",
-    "clicks": 6
+    "clicks": 6,
+    "broken": true
   },
   {
     "id": 362,
     "path": "calvinism_teaching_tool",
     "target": "http://www.carylmatrisciana.com/pdf/NotebookSep09.pdf",
     "created": "2011-01-26",
-    "clicks": 3
+    "clicks": 3,
+    "broken": true
   },
   {
     "id": 363,
@@ -3828,10 +3840,15 @@
   {
     "id": 468,
     "path": "9e",
-    "target": "http://www.amzn.com/B001GCUCF4?tag=joeyday-20",
+    "target": "https://www.amazon.com/dp/B001GCUCF4/ref=cm_sw_su_dp?tag=joeyday-20",
     "created": "2012-03-13",
     "clicks": 27,
-    "broken": true
+    "history": [
+      {
+        "target": "http://www.amzn.com/B001GCUCF4?tag=joeyday-20",
+        "replaced": "2026-11-09"
+      }
+    ]
   },
   {
     "id": 469,
