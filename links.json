@@ -181,9 +181,15 @@
   {
     "id": 22,
     "path": "katbday",
-    "target": "http://www.timeanddate.com/counters/customcounter.html?month=11&day=7&year=2006&hour=19&min=30&sec=00&p0=220",
+    "target": "https://www.timeanddate.com/countdown/to?month=11&day=7&year=2006&hour=19&min=30&sec=00&p0=220",
     "created": "2009-03-16",
-    "clicks": 0
+    "clicks": 0,
+    "history": [
+      {
+        "target": "http://www.timeanddate.com/counters/customcounter.html?month=11&day=7&year=2006&hour=19&min=30&sec=00&p0=220",
+        "replaced": "2026-11-16"
+      }
+    ]
   },
   {
     "id": 23,
@@ -2708,10 +2714,14 @@
   {
     "id": 314,
     "path": "mj",
-    "target": "https://www.flickr.com/photos/joeyday/4907686124/in/set-72157624635402461/#/photos/joeyday/4907686124/in/set-72157624635402461/lightbox/",
+    "target": "https://www.flickr.com/photos/joeyday/4907686124/in/set-72157624635402461#/photos/joeyday/4907686124/in/set-72157624635402461/lightbox/",
     "created": "2010-08-19",
     "clicks": 1,
     "history": [
+      {
+        "target": "https://www.flickr.com/photos/joeyday/4907686124/in/set-72157624635402461/#/photos/joeyday/4907686124/in/set-72157624635402461/lightbox/",
+        "replaced": "2026-11-16"
+      },
       {
         "target": "http://www.flickr.com/photos/joeyday/4907686124/in/set-72157624635402461/#/photos/joeyday/4907686124/in/set-72157624635402461/lightbox/",
         "replaced": "2026-10-07"
@@ -3463,8 +3473,7 @@
         "replaced": "2026-10-07"
       }
     ],
-    "approved": true,
-    "broken": true
+    "approved": true
   },
   {
     "id": 402,
@@ -3664,10 +3673,14 @@
   {
     "id": 420,
     "path": "is",
-    "target": "https://www.flickr.com/photos/joeyday/6263310413/in/photostream/lightbox/",
+    "target": "https://www.flickr.com/photos/joeyday/6263310413/in/photostream/lightbox",
     "created": "2011-10-20",
     "clicks": 19,
     "history": [
+      {
+        "target": "https://www.flickr.com/photos/joeyday/6263310413/in/photostream/lightbox/",
+        "replaced": "2026-11-16"
+      },
       {
         "target": "http://www.flickr.com/photos/joeyday/6263310413/in/photostream/lightbox/",
         "replaced": "2026-10-07"
@@ -3678,10 +3691,14 @@
   {
     "id": 421,
     "path": "6",
-    "target": "https://www.flickr.com/photos/joeyday/6263317649/in/photostream/lightbox/",
+    "target": "https://www.flickr.com/photos/joeyday/6263317649/in/photostream/lightbox",
     "created": "2011-10-20",
     "clicks": 19,
     "history": [
+      {
+        "target": "https://www.flickr.com/photos/joeyday/6263317649/in/photostream/lightbox/",
+        "replaced": "2026-11-16"
+      },
       {
         "target": "http://www.flickr.com/photos/joeyday/6263317649/in/photostream/lightbox/",
         "replaced": "2026-10-07"
