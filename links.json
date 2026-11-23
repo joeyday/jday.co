@@ -362,14 +362,16 @@
     "path": "del.icio.us",
     "target": "http://delicious.com/joeyday",
     "created": "2009-03-17",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 41,
     "path": "delicious",
     "target": "http://delicious.com/joeyday",
     "created": "2009-03-17",
-    "clicks": 130
+    "clicks": 130,
+    "broken": true
   },
   {
     "id": 42,
@@ -555,7 +557,8 @@
     "path": "3uy",
     "target": "http://delicious.com/joeyday",
     "created": "2009-03-17",
-    "clicks": 2
+    "clicks": 2,
+    "broken": true
   },
   {
     "id": 62,
@@ -1105,7 +1108,8 @@
     "path": "hash",
     "target": "http://h.jday.us",
     "created": "2009-06-23",
-    "clicks": 19
+    "clicks": 19,
+    "broken": true
   },
   {
     "id": 137,
@@ -1184,9 +1188,15 @@
   {
     "id": 144,
     "path": "mao",
-    "target": "http://papers.jday.us/view/mao",
+    "target": "https://papers.jday.co/view/mao/",
     "created": "2011-04-27",
-    "clicks": 7
+    "clicks": 7,
+    "history": [
+      {
+        "target": "http://papers.jday.us/view/mao",
+        "replaced": "2026-11-23"
+      }
+    ]
   },
   {
     "id": 146,
@@ -2458,14 +2468,16 @@
     "path": "7l",
     "target": "http://www.theamericanview.com/index.php?id=814",
     "created": "2010-04-09",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 285,
     "path": "i2",
     "target": "http://www.theamericanview.com/index.php?id=837",
     "created": "2010-04-09",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 286,
@@ -3044,7 +3056,8 @@
     "path": "yt",
     "target": "http://discussions.apple.com/message.jspa?messageID=12626158#12626158",
     "created": "2011-01-12",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 351,
@@ -3246,14 +3259,16 @@
     "path": "j",
     "target": "http://www.jday.us/SW_",
     "created": "2011-03-25",
-    "clicks": 0
+    "clicks": 0,
+    "broken": true
   },
   {
     "id": 377,
     "path": "win7",
     "target": "http://www.jday.us/SW_DVD5_SA_Win_Ent_7_32BIT_English_Full_MLF_X15-70745.ISO",
     "created": "2011-03-25",
-    "clicks": 1
+    "clicks": 1,
+    "broken": true
   },
   {
     "id": 378,
@@ -3280,9 +3295,15 @@
   {
     "id": 380,
     "path": "software",
-    "target": "http://papers.jday.us/view/software",
+    "target": "https://papers.jday.co/view/software/",
     "created": "2011-04-28",
-    "clicks": 15
+    "clicks": 15,
+    "history": [
+      {
+        "target": "http://papers.jday.us/view/software",
+        "replaced": "2026-11-23"
+      }
+    ]
   },
   {
     "id": 381,
@@ -3354,9 +3375,16 @@
   {
     "id": 389,
     "path": "vi",
-    "target": "http://kolobiv.blogspot.com/2008/11/playing-devils-advocate-with-kevin.html",
+    "target": "https://kolobiv.blogspot.com/2008/11/playing-devils-advocate-with-kevin.html",
     "created": "2011-07-02",
-    "clicks": 8
+    "clicks": 8,
+    "history": [
+      {
+        "target": "http://kolobiv.blogspot.com/2008/11/playing-devils-advocate-with-kevin.html",
+        "replaced": "2026-11-23"
+      }
+    ],
+    "approved": true
   },
   {
     "id": 390,
@@ -3473,7 +3501,8 @@
         "replaced": "2026-10-07"
       }
     ],
-    "approved": true
+    "approved": true,
+    "broken": true
   },
   {
     "id": 402,
@@ -3486,9 +3515,15 @@
   {
     "id": 403,
     "path": "apps",
-    "target": "http://papers.jday.us/view/apps",
+    "target": "https://papers.jday.co/view/apps/",
     "created": "2011-07-25",
-    "clicks": 3
+    "clicks": 3,
+    "history": [
+      {
+        "target": "http://papers.jday.us/view/apps",
+        "replaced": "2026-11-23"
+      }
+    ]
   },
   {
     "id": 404,
@@ -4036,7 +4071,8 @@
     "path": "wide",
     "target": "http://jday.us/random/wide.html",
     "created": "2012-07-08",
-    "clicks": 16
+    "clicks": 16,
+    "broken": true
   },
   {
     "id": 490,
@@ -4340,7 +4376,8 @@
         "replaced": "2026-10-07"
       }
     ],
-    "approved": true
+    "approved": true,
+    "broken": true
   },
   {
     "id": 524,
